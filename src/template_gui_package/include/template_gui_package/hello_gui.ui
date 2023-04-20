@@ -6,74 +6,22 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>702</width>
-    <height>411</height>
+    <width>1097</width>
+    <height>601</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout_3">
-    <item>
-     <layout class="QVBoxLayout" name="verticalLayout_2">
-      <item>
-       <layout class="QVBoxLayout" name="verticalLayout">
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout">
-          <item>
-           <widget class="QPushButton" name="sub_B">
-            <property name="text">
-             <string>sub (hello ali)</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="sub">
-            <property name="text">
-             <string>sub</string>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_2">
-          <item>
-           <widget class="QPushButton" name="pub_B">
-            <property name="text">
-             <string>pub_B</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="pub">
-            <property name="text">
-             <string>pub</string>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-       </layout>
-      </item>
-      <item>
-       <widget class="QLabel" name="frame_label">
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-   </layout>
+   <layout class="QVBoxLayout" name="verticalLayout_3"/>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>702</width>
+     <width>1097</width>
      <height>22</height>
     </rect>
    </property>

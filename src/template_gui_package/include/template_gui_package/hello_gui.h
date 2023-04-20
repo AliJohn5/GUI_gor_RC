@@ -8,6 +8,7 @@
 #include <opencv4/opencv2/opencv.hpp>
 #include <cv_bridge/cv_bridge.h>
 #include <sensor_msgs/Image.h>
+#include<QCloseEvent>
 
 
 
@@ -23,31 +24,25 @@ public:
   explicit helloGui(QWidget *parent = nullptr);
   ~helloGui();
 
-  void callback(const sensor_msgs::Image::ConstPtr& msg);
-  void callback1(const std_msgs::String::ConstPtr& msg);
+  //void callback(const sensor_msgs::Image::ConstPtr& msg);
   void imageCallback(const sensor_msgs::Image::ConstPtr& msg);
+  void closeEvent(QCloseEvent *event);
 
 public slots:
   void spinOnce();
   void spin();
 
 private slots:
-  void on_sub_B_clicked();
 
-  void on_pub_B_clicked();
 
 private:
   Ui::helloGui *ui;
   QTimer *ros_timer;
-  QTimer *ros_timer1;
-  ros::NodeHandlePtr sub_;
-  ros::NodeHandlePtr pub_;
-  ros::NodeHandlePtr john;
-  ros::NodeHandlePtr dd;
-  ros::Subscriber _sub;
-  ros::Publisher _pub;
-  ros::Publisher DD;
-  ros::Subscriber ali;
+
+  ros::NodeHandlePtr nhPtr;
+  ros::NodeHandlePtr nhPtr1;
+  ros::Subscriber sub;
+  ros::Publisher pub;
 };
 
 #endif // HELLO_GUI_H

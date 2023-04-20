@@ -277,6 +277,7 @@ template_gui_package/CMakeFiles/listener.dir/listener_autogen/mocs_compilation.c
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QCloseEvent
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
@@ -572,6 +573,7 @@ template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.o
  /usr/include/opencv4/opencv2/viz/viz3d.hpp
  /usr/include/opencv4/opencv2/viz/vizcore.hpp
  /usr/include/opencv4/opencv2/viz/widgets.hpp
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -650,6 +652,7 @@ template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QCloseEvent
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QImage
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPixmap
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
@@ -682,29 +685,22 @@ template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenu.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h

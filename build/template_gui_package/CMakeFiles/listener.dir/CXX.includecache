@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/listener_autogen/6PKUJRDHSE/moc_hello_gui.cpp
-include/template_gui_package/hello_gui.h
-/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/listener_autogen/6PKUJRDHSE/include/template_gui_package/hello_gui.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/listener_autogen/mocs_compilation.cpp
-6PKUJRDHSE/moc_hello_gui.cpp
-/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/listener_autogen/6PKUJRDHSE/moc_hello_gui.cpp
-
 /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/hello_gui.h
 QMainWindow
 -
@@ -33,6 +21,8 @@ cv_bridge/cv_bridge.h
 -
 sensor_msgs/Image.h
 -
+QCloseEvent
+-
 
 /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp
 hello_gui.h
@@ -42,6 +32,14 @@ ui_hello_gui.h
 QPixmap
 -
 QImage
+-
+QDebug
+-
+iostream
+-
+QCloseEvent
+-
+event.h
 -
 
 /opt/ros/noetic/include/cv_bridge/cv_bridge.h
@@ -2126,6 +2124,10 @@ opencv2/viz/viz3d.hpp
 opencv2/viz/types.hpp
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
+qdebug.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer
 qtimer.h
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h
@@ -2854,6 +2856,10 @@ QtCore/qpoint.h
 QtCore/qglobal.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/QCloseEvent
+qevent.h
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QImage
 qimage.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
@@ -3192,14 +3198,6 @@ QtGui/qtguiglobal.h
 qapplication.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
-qboxlayout.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
-qlabel.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
 qmainwindow.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
@@ -3207,10 +3205,6 @@ qmainwindow.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar
 qmenubar.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
-qpushbutton.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
 qstatusbar.h
@@ -3223,16 +3217,6 @@ qboxlayout.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
 qwidget.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
-QtWidgets/qtwidgetsglobal.h
--
-QtGui/qicon.h
--
-QtGui/qkeysequence.h
--
-QtWidgets/qwidget.h
--
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h
 QtWidgets/qtwidgetsglobal.h
@@ -3290,12 +3274,6 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -3304,12 +3282,6 @@ QtWidgets/qlayout.h
 QtWidgets/qwidget.h
 -
 limits.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qframe.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
@@ -3366,12 +3338,6 @@ QtWidgets/qaction.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qmenu.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qabstractbutton.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
@@ -3441,15 +3407,9 @@ QtCore/QVariant
 -
 QtWidgets/QApplication
 -
-QtWidgets/QHBoxLayout
--
-QtWidgets/QLabel
--
 QtWidgets/QMainWindow
 -
 QtWidgets/QMenuBar
--
-QtWidgets/QPushButton
 -
 QtWidgets/QStatusBar
 -
