@@ -6,6 +6,7 @@
 #include <iostream>
 #include <QCloseEvent>
 #include<event.h>
+#include<QLabel>
 
 QString qstring_msg;
 using namespace cv;
@@ -83,11 +84,11 @@ void helloGui::spin()
 
 void helloGui::imageCallback(const sensor_msgs::Image::ConstPtr &msg)
 {
-  /*cv_bridge::CvImagePtr k = cv_bridge::toCvCopy(msg,"bgr8");
+  cv_bridge::CvImagePtr k = cv_bridge::toCvCopy(msg,"bgr8");
   QPixmap m = Mat_to_pixmap(k->image);
-  int w = ui->frame_label->width();
-  int h = ui->frame_label->height();
-  ui->frame_label->setPixmap( m.scaled(w,h) );*/
+  int w = ui->label->width();
+  int h = ui->label->height();
+  ui->label ->setPixmap( m.scaled(w,h) );
 }
 
 
@@ -115,4 +116,43 @@ void helloGui::closeEvent(QCloseEvent *event)
 {
   closeNodes();
   QApplication::quit();
+}
+
+void helloGui::mouseMoveEvent(QMouseEvent *event)
+{
+ // if (!pixmap()) return;
+
+      QPoint pos = event->pos();
+      //QRect labelRect = contentsRect();
+      //QSize pixmapSize = pixmap()->size();
+     // QRect pixmapRect = QRect(QPoint(0, 0), pixmapSize).scaled(labelRect.size(), Qt::KeepAspectRatio);
+
+      /*if (pixmapRect.contains(pos)) {
+        double x = pos.x() * pixmapSize.width() / (double)pixmapRect.width();
+        double y = pos.y() * pixmapSize.height() / (double)pixmapRect.height();}*/
+      double x = pos.x() ;//* pixmapSize.width() / (double)pixmapRect.width();
+      double y = pos.y() ;//* pixmapSize.height() / (double)pixmapRect.height();
+        //qDebug() << "Mouse position on image:" << x << y;
+
+     // ui->label->setNum((int)x);
+      //ui->label_2->setNum((int)y);
+}
+
+void helloGui::mousePressEvent(QMouseEvent *event)
+{
+
+  QPoint pos = event->pos();
+  int x = pos.x() ;
+  int y = pos.y() ;
+
+  if ( ui->label->rect().contains(pos) )
+  {
+   ui->label_2->setNum(x);
+   //ui->label_2->setNum(y);
+  }
+
+  else {
+    ui->label_2->setText("");
+   // ui->label_2->setText("");
+  }
 }
