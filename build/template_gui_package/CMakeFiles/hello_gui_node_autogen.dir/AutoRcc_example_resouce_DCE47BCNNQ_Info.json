@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/hello_gui_node_autogen",
+	"CMAKE_BINARY_DIR" : "/home/alijohn/Desktop/temp_for_gui/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package",
+	"CMAKE_SOURCE_DIR" : "/home/alijohn/Desktop/temp_for_gui/src",
+	"INCLUDE_DIR" : "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/hello_gui_node_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/rc/my_gui_icon.png"
+	],
+	"LOCK_FILE" : "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/AutoRcc_example_resouce_DCE47BCNNQ_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "example_resouce" ],
+	"OUTPUT_CHECKSUM" : "DCE47BCNNQ",
+	"OUTPUT_NAME" : "qrc_example_resouce.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/AutoRcc_example_resouce_DCE47BCNNQ_Used.txt",
+	"SOURCE" : "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/rc/example_resouce.qrc",
+	"VERBOSITY" : 0
+}
