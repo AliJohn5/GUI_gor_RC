@@ -11,6 +11,13 @@
 QString qstring_msg;
 using namespace cv;
 
+bool camera_is_on = false;
+
+
+int num_of_cols = 640;
+int num_of_raws = 480;
+
+
 QPixmap Mat_to_pixmap(Mat src)
 {
   QImage::Format format=QImage::Format_Grayscale8;
@@ -84,6 +91,7 @@ void helloGui::spin()
 
 void helloGui::imageCallback(const sensor_msgs::Image::ConstPtr &msg)
 {
+  if (!camera_is_on) {ui->label->clear(); return;}
   cv_bridge::CvImagePtr k = cv_bridge::toCvCopy(msg,"bgr8");
   QPixmap m = Mat_to_pixmap(k->image);
   int w = ui->label->width();
@@ -141,18 +149,28 @@ void helloGui::mouseMoveEvent(QMouseEvent *event)
 void helloGui::mousePressEvent(QMouseEvent *event)
 {
 
-  QPoint pos = event->pos();
-  int x = pos.x() ;
-  int y = pos.y() ;
+  QWidget* childWidget = childAt(event->pos());
+      // Check if the child widget is a QLabel
+  //QWidget* childWidget = ui->label;
+  QLabel* label = qobject_cast<QLabel*>(childWidget);
+  if ( label == ui->label) {
+          // Convert the global mouse position to the local position of the QLabel
+      QPoint position = label->mapFromGlobal(event->globalPos());
+      int x = position.x()*num_of_cols /ui->label->width();
+      int y = position.y()*num_of_raws /ui->label->height();
+      qDebug() << "Mouse clicked on QLabel at position:" << x << " " << y;
+      }
+}
 
-  if ( ui->label->rect().contains(pos) )
+void helloGui::on_pushButtonCamera_clicked()
+{
+  if (!camera_is_on)
   {
-   ui->label_2->setNum(x);
-   //ui->label_2->setNum(y);
-  }
-
-  else {
-    ui->label_2->setText("");
-   // ui->label_2->setText("");
+    system("rosrun template_gui_package talker &");
+    camera_is_on = true;
+  } else {
+    system("rosnode kill /talker &");
+    ui->label->setNum(0);
+    camera_is_on = false;
   }
 }

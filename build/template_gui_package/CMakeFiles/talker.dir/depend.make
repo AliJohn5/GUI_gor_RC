@@ -726,12 +726,16 @@ template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
+template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
+template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar
+template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
-template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
+template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
@@ -745,6 +749,7 @@ template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenu.h
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h
+template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
@@ -752,6 +757,8 @@ template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o: template_gui_package/ui_hello_gui.h
+
+template_gui_package/CMakeFiles/talker.dir/talker_autogen/UVLADIE3JM/qrc_res.cpp.o: template_gui_package/talker_autogen/UVLADIE3JM/qrc_res.cpp
 
 template_gui_package/CMakeFiles/talker.dir/talker_autogen/mocs_compilation.cpp.o: template_gui_package/talker_autogen/6PKUJRDHSE/moc_hello_gui.cpp
 template_gui_package/CMakeFiles/talker.dir/talker_autogen/mocs_compilation.cpp.o: template_gui_package/talker_autogen/mocs_compilation.cpp

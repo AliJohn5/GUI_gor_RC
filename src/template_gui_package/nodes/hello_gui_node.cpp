@@ -1,10 +1,10 @@
 #include<QApplication>
 #include<QPushButton>
 #include "hello_gui.h"
-
+//#include "mainwindow.h"
 void runNodes()
 {
-  system("rosrun template_gui_package talker &");
+  //system("rosrun template_gui_package talker &");
 }
 
 

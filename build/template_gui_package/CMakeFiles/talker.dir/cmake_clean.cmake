@@ -6,7 +6,9 @@ file(REMOVE_RECURSE
   "/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/talker.pdb"
   "CMakeFiles/talker.dir/nodes/talker.cpp.o"
   "CMakeFiles/talker.dir/src/hello_gui.cpp.o"
+  "CMakeFiles/talker.dir/talker_autogen/UVLADIE3JM/qrc_res.cpp.o"
   "CMakeFiles/talker.dir/talker_autogen/mocs_compilation.cpp.o"
+  "talker_autogen/UVLADIE3JM/qrc_res.cpp"
   "ui_hello_gui.h"
 )
 

@@ -47,7 +47,10 @@ set(ROS_DEPENDS
 include_directories(
   ${catkin_INCLUDE_DIRS}
 )
+find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
+set(RESOURCES res.qrc)
+qt5_add_resources(RESOURCE_FILES ${RESOURCES})
 
 set(EXTERNAL_DEPENDS
   Qt5Widgets
@@ -158,7 +161,7 @@ endforeach(source)
 
 # find all resource files
 file(GLOB QRC
-    "rc/*.qrc"
+    "src/*.qrc"
 )
 
 ###

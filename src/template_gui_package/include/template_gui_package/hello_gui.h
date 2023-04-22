@@ -42,6 +42,8 @@ public slots:
 private slots:
 
 
+  void on_pushButtonCamera_clicked();
+
 private:
   Ui::helloGui *ui;
   QTimer *ros_timer;

@@ -61,9 +61,19 @@ template_gui_package/ui_hello_gui.h: /home/alijohn/Desktop/temp_for_gui/src/temp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_hello_gui.h"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/lib/qt5/bin/uic -o /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/ui_hello_gui.h /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/hello_gui.ui
 
+template_gui_package/listener_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/res.qrc
+template_gui_package/listener_autogen/UVLADIE3JM/qrc_res.cpp: template_gui_package/CMakeFiles/listener_autogen.dir/AutoRcc_res_UVLADIE3JM_Info.json
+template_gui_package/listener_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/cameraicon.jpg
+template_gui_package/listener_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/back.jpg
+template_gui_package/listener_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/arm.jpeg
+template_gui_package/listener_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac.jpg
+template_gui_package/listener_autogen/UVLADIE3JM/qrc_res.cpp: /usr/lib/qt5/bin/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for src/res.qrc"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/cmake -E cmake_autorcc /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/listener_autogen.dir/AutoRcc_res_UVLADIE3JM_Info.json Debug
+
 template_gui_package/CMakeFiles/listener.dir/listener_autogen/mocs_compilation.cpp.o: template_gui_package/CMakeFiles/listener.dir/flags.make
 template_gui_package/CMakeFiles/listener.dir/listener_autogen/mocs_compilation.cpp.o: template_gui_package/listener_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object template_gui_package/CMakeFiles/listener.dir/listener_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object template_gui_package/CMakeFiles/listener.dir/listener_autogen/mocs_compilation.cpp.o"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/listener.dir/listener_autogen/mocs_compilation.cpp.o -c /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/listener_autogen/mocs_compilation.cpp
 
 template_gui_package/CMakeFiles/listener.dir/listener_autogen/mocs_compilation.cpp.i: cmake_force
@@ -76,7 +86,7 @@ template_gui_package/CMakeFiles/listener.dir/listener_autogen/mocs_compilation.c
 
 template_gui_package/CMakeFiles/listener.dir/nodes/listener.cpp.o: template_gui_package/CMakeFiles/listener.dir/flags.make
 template_gui_package/CMakeFiles/listener.dir/nodes/listener.cpp.o: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/nodes/listener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object template_gui_package/CMakeFiles/listener.dir/nodes/listener.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object template_gui_package/CMakeFiles/listener.dir/nodes/listener.cpp.o"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/listener.dir/nodes/listener.cpp.o -c /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/nodes/listener.cpp
 
 template_gui_package/CMakeFiles/listener.dir/nodes/listener.cpp.i: cmake_force
@@ -89,7 +99,7 @@ template_gui_package/CMakeFiles/listener.dir/nodes/listener.cpp.s: cmake_force
 
 template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.o: template_gui_package/CMakeFiles/listener.dir/flags.make
 template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.o: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.o"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/listener.dir/src/hello_gui.cpp.o -c /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp
 
 template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.i: cmake_force
@@ -100,11 +110,25 @@ template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/listener.dir/src/hello_gui.cpp.s"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp -o CMakeFiles/listener.dir/src/hello_gui.cpp.s
 
+template_gui_package/CMakeFiles/listener.dir/listener_autogen/UVLADIE3JM/qrc_res.cpp.o: template_gui_package/CMakeFiles/listener.dir/flags.make
+template_gui_package/CMakeFiles/listener.dir/listener_autogen/UVLADIE3JM/qrc_res.cpp.o: template_gui_package/listener_autogen/UVLADIE3JM/qrc_res.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object template_gui_package/CMakeFiles/listener.dir/listener_autogen/UVLADIE3JM/qrc_res.cpp.o"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/listener.dir/listener_autogen/UVLADIE3JM/qrc_res.cpp.o -c /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/listener_autogen/UVLADIE3JM/qrc_res.cpp
+
+template_gui_package/CMakeFiles/listener.dir/listener_autogen/UVLADIE3JM/qrc_res.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/listener.dir/listener_autogen/UVLADIE3JM/qrc_res.cpp.i"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/listener_autogen/UVLADIE3JM/qrc_res.cpp > CMakeFiles/listener.dir/listener_autogen/UVLADIE3JM/qrc_res.cpp.i
+
+template_gui_package/CMakeFiles/listener.dir/listener_autogen/UVLADIE3JM/qrc_res.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/listener.dir/listener_autogen/UVLADIE3JM/qrc_res.cpp.s"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/listener_autogen/UVLADIE3JM/qrc_res.cpp -o CMakeFiles/listener.dir/listener_autogen/UVLADIE3JM/qrc_res.cpp.s
+
 # Object files for target listener
 listener_OBJECTS = \
 "CMakeFiles/listener.dir/listener_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/listener.dir/nodes/listener.cpp.o" \
-"CMakeFiles/listener.dir/src/hello_gui.cpp.o"
+"CMakeFiles/listener.dir/src/hello_gui.cpp.o" \
+"CMakeFiles/listener.dir/listener_autogen/UVLADIE3JM/qrc_res.cpp.o"
 
 # External object files for target listener
 listener_EXTERNAL_OBJECTS =
@@ -112,6 +136,7 @@ listener_EXTERNAL_OBJECTS =
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/listener: template_gui_package/CMakeFiles/listener.dir/listener_autogen/mocs_compilation.cpp.o
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/listener: template_gui_package/CMakeFiles/listener.dir/nodes/listener.cpp.o
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/listener: template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.o
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/listener: template_gui_package/CMakeFiles/listener.dir/listener_autogen/UVLADIE3JM/qrc_res.cpp.o
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/listener: template_gui_package/CMakeFiles/listener.dir/build.make
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/listener: /opt/ros/noetic/lib/libroscpp.so
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/listener: /usr/lib/x86_64-linux-gnu/libpthread.so
@@ -199,7 +224,7 @@ listener_EXTERNAL_OBJECTS =
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/listener: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/listener: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/listener: template_gui_package/CMakeFiles/listener.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/listener"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/listener"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/listener.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -212,6 +237,7 @@ template_gui_package/CMakeFiles/listener.dir/clean:
 .PHONY : template_gui_package/CMakeFiles/listener.dir/clean
 
 template_gui_package/CMakeFiles/listener.dir/depend: template_gui_package/ui_hello_gui.h
+template_gui_package/CMakeFiles/listener.dir/depend: template_gui_package/listener_autogen/UVLADIE3JM/qrc_res.cpp
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alijohn/Desktop/temp_for_gui/src /home/alijohn/Desktop/temp_for_gui/src/template_gui_package /home/alijohn/Desktop/temp_for_gui/build /home/alijohn/Desktop/temp_for_gui/build/template_gui_package /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/listener.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : template_gui_package/CMakeFiles/listener.dir/depend
 

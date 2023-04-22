@@ -4,9 +4,11 @@ file(REMOVE_RECURSE
   "listener_autogen"
   "/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/listener"
   "/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/listener.pdb"
+  "CMakeFiles/listener.dir/listener_autogen/UVLADIE3JM/qrc_res.cpp.o"
   "CMakeFiles/listener.dir/listener_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/listener.dir/nodes/listener.cpp.o"
   "CMakeFiles/listener.dir/src/hello_gui.cpp.o"
+  "listener_autogen/UVLADIE3JM/qrc_res.cpp"
   "ui_hello_gui.h"
 )
 
