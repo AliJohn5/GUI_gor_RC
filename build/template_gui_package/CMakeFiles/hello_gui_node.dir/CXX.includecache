@@ -53,6 +53,12 @@ event.h
 -
 QLabel
 -
+opencv4/opencv2/highgui/highgui.hpp
+-
+opencv4/opencv2/imgproc/imgproc.hpp
+-
+vector
+-
 
 /opt/ros/noetic/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h
@@ -5526,6 +5532,10 @@ QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QAction
+qaction.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 qapplication.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
@@ -5545,6 +5555,10 @@ qlabel.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
 qmainwindow.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenu
+qmenu.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenu.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar
 qmenubar.h
@@ -5781,6 +5795,8 @@ QtGui/qevent.h
 template_gui_package/ui_hello_gui.h
 QtCore/QVariant
 -
+QtWidgets/QAction
+-
 QtWidgets/QApplication
 -
 QtWidgets/QGridLayout
@@ -5790,6 +5806,8 @@ QtWidgets/QHBoxLayout
 QtWidgets/QLabel
 -
 QtWidgets/QMainWindow
+-
+QtWidgets/QMenu
 -
 QtWidgets/QMenuBar
 -

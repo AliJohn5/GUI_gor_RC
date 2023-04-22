@@ -10,11 +10,13 @@
 #define UI_HELLO_GUI_H
 
 #include <QtCore/QVariant>
+#include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
@@ -26,6 +28,7 @@ QT_BEGIN_NAMESPACE
 class Ui_helloGui
 {
 public:
+    QAction *actionopen_camera;
     QWidget *centralwidget;
     QGridLayout *gridLayout_2;
     QGridLayout *gridLayout;
@@ -37,6 +40,7 @@ public:
     QPushButton *pushButtonCamera;
     QSpacerItem *horizontalSpacer_2;
     QMenuBar *menubar;
+    QMenu *menuoption;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *helloGui)
@@ -45,6 +49,8 @@ public:
             helloGui->setObjectName(QString::fromUtf8("helloGui"));
         helloGui->resize(1132, 638);
         helloGui->setStyleSheet(QString::fromUtf8("border-image: url(:/new/prefix1/back.jpg);"));
+        actionopen_camera = new QAction(helloGui);
+        actionopen_camera->setObjectName(QString::fromUtf8("actionopen_camera"));
         centralwidget = new QWidget(helloGui);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         gridLayout_2 = new QGridLayout(centralwidget);
@@ -93,10 +99,16 @@ public:
         menubar = new QMenuBar(helloGui);
         menubar->setObjectName(QString::fromUtf8("menubar"));
         menubar->setGeometry(QRect(0, 0, 1132, 22));
+        menuoption = new QMenu(menubar);
+        menuoption->setObjectName(QString::fromUtf8("menuoption"));
         helloGui->setMenuBar(menubar);
         statusbar = new QStatusBar(helloGui);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
         helloGui->setStatusBar(statusbar);
+
+        menubar->addAction(menuoption->menuAction());
+        menuoption->addSeparator();
+        menuoption->addAction(actionopen_camera);
 
         retranslateUi(helloGui);
 
@@ -106,9 +118,11 @@ public:
     void retranslateUi(QMainWindow *helloGui)
     {
         helloGui->setWindowTitle(QApplication::translate("helloGui", "MainWindow", nullptr));
+        actionopen_camera->setText(QApplication::translate("helloGui", "open_camera", nullptr));
         label->setText(QString());
         label_2->setText(QString());
         pushButtonCamera->setText(QString());
+        menuoption->setTitle(QApplication::translate("helloGui", "option", nullptr));
     } // retranslateUi
 
 };

@@ -95,8 +95,21 @@
      <height>22</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuoption">
+    <property name="title">
+     <string>option</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionopen_camera"/>
+   </widget>
+   <addaction name="menuoption"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionopen_camera">
+   <property name="text">
+    <string>open_camera</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

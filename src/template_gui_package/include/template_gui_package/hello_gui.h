@@ -32,6 +32,7 @@ public:
   void closeEvent(QCloseEvent *event);
   void mouseMoveEvent(QMouseEvent* event);
   void mousePressEvent(QMouseEvent* event);
+  QPixmap  qim;
 
 
 
