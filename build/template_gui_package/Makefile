@@ -101,6 +101,17 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -123,17 +134,6 @@ install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -363,6 +363,21 @@ roscpp_generate_messages_nodejs/fast:
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
+template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
 template_gui_package/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : template_gui_package/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
@@ -421,6 +436,21 @@ std_msgs_generate_messages_lisp: template_gui_package/CMakeFiles/std_msgs_genera
 std_msgs_generate_messages_lisp/fast:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make template_gui_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+template_gui_package/CMakeFiles/frame2.dir/rule:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/frame2.dir/rule
+.PHONY : template_gui_package/CMakeFiles/frame2.dir/rule
+
+# Convenience name for target.
+frame2: template_gui_package/CMakeFiles/frame2.dir/rule
+
+.PHONY : frame2
+
+# fast build rule for target.
+frame2/fast:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/build
+.PHONY : frame2/fast
 
 # Convenience name for target.
 template_gui_package/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
@@ -573,21 +603,6 @@ talker/fast:
 .PHONY : talker/fast
 
 # Convenience name for target.
-template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
 template_gui_package/CMakeFiles/listener_autogen.dir/rule:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/listener_autogen.dir/rule
 .PHONY : template_gui_package/CMakeFiles/listener_autogen.dir/rule
@@ -601,6 +616,21 @@ listener_autogen: template_gui_package/CMakeFiles/listener_autogen.dir/rule
 listener_autogen/fast:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener_autogen.dir/build.make template_gui_package/CMakeFiles/listener_autogen.dir/build
 .PHONY : listener_autogen/fast
+
+# Convenience name for target.
+template_gui_package/CMakeFiles/frame2_autogen.dir/rule:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/frame2_autogen.dir/rule
+.PHONY : template_gui_package/CMakeFiles/frame2_autogen.dir/rule
+
+# Convenience name for target.
+frame2_autogen: template_gui_package/CMakeFiles/frame2_autogen.dir/rule
+
+.PHONY : frame2_autogen
+
+# fast build rule for target.
+frame2_autogen/fast:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2_autogen.dir/build.make template_gui_package/CMakeFiles/frame2_autogen.dir/build
+.PHONY : frame2_autogen/fast
 
 # Convenience name for target.
 template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/rule:
@@ -631,6 +661,60 @@ talker_autogen: template_gui_package/CMakeFiles/talker_autogen.dir/rule
 talker_autogen/fast:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker_autogen.dir/build.make template_gui_package/CMakeFiles/talker_autogen.dir/build
 .PHONY : talker_autogen/fast
+
+frame2_autogen/UVLADIE3JM/qrc_res.o: frame2_autogen/UVLADIE3JM/qrc_res.cpp.o
+
+.PHONY : frame2_autogen/UVLADIE3JM/qrc_res.o
+
+# target to build an object file
+frame2_autogen/UVLADIE3JM/qrc_res.cpp.o:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/UVLADIE3JM/qrc_res.cpp.o
+.PHONY : frame2_autogen/UVLADIE3JM/qrc_res.cpp.o
+
+frame2_autogen/UVLADIE3JM/qrc_res.i: frame2_autogen/UVLADIE3JM/qrc_res.cpp.i
+
+.PHONY : frame2_autogen/UVLADIE3JM/qrc_res.i
+
+# target to preprocess a source file
+frame2_autogen/UVLADIE3JM/qrc_res.cpp.i:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/UVLADIE3JM/qrc_res.cpp.i
+.PHONY : frame2_autogen/UVLADIE3JM/qrc_res.cpp.i
+
+frame2_autogen/UVLADIE3JM/qrc_res.s: frame2_autogen/UVLADIE3JM/qrc_res.cpp.s
+
+.PHONY : frame2_autogen/UVLADIE3JM/qrc_res.s
+
+# target to generate assembly for a file
+frame2_autogen/UVLADIE3JM/qrc_res.cpp.s:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/UVLADIE3JM/qrc_res.cpp.s
+.PHONY : frame2_autogen/UVLADIE3JM/qrc_res.cpp.s
+
+frame2_autogen/mocs_compilation.o: frame2_autogen/mocs_compilation.cpp.o
+
+.PHONY : frame2_autogen/mocs_compilation.o
+
+# target to build an object file
+frame2_autogen/mocs_compilation.cpp.o:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/mocs_compilation.cpp.o
+.PHONY : frame2_autogen/mocs_compilation.cpp.o
+
+frame2_autogen/mocs_compilation.i: frame2_autogen/mocs_compilation.cpp.i
+
+.PHONY : frame2_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+frame2_autogen/mocs_compilation.cpp.i:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/mocs_compilation.cpp.i
+.PHONY : frame2_autogen/mocs_compilation.cpp.i
+
+frame2_autogen/mocs_compilation.s: frame2_autogen/mocs_compilation.cpp.s
+
+.PHONY : frame2_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+frame2_autogen/mocs_compilation.cpp.s:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/mocs_compilation.cpp.s
+.PHONY : frame2_autogen/mocs_compilation.cpp.s
 
 hello_gui_node_autogen/UVLADIE3JM/qrc_res.o: hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp.o
 
@@ -740,6 +824,33 @@ listener_autogen/mocs_compilation.cpp.s:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/listener_autogen/mocs_compilation.cpp.s
 .PHONY : listener_autogen/mocs_compilation.cpp.s
 
+nodes/frame2.o: nodes/frame2.cpp.o
+
+.PHONY : nodes/frame2.o
+
+# target to build an object file
+nodes/frame2.cpp.o:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/nodes/frame2.cpp.o
+.PHONY : nodes/frame2.cpp.o
+
+nodes/frame2.i: nodes/frame2.cpp.i
+
+.PHONY : nodes/frame2.i
+
+# target to preprocess a source file
+nodes/frame2.cpp.i:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/nodes/frame2.cpp.i
+.PHONY : nodes/frame2.cpp.i
+
+nodes/frame2.s: nodes/frame2.cpp.s
+
+.PHONY : nodes/frame2.s
+
+# target to generate assembly for a file
+nodes/frame2.cpp.s:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/nodes/frame2.cpp.s
+.PHONY : nodes/frame2.cpp.s
+
 nodes/hello_gui_node.o: nodes/hello_gui_node.cpp.o
 
 .PHONY : nodes/hello_gui_node.o
@@ -828,6 +939,7 @@ src/hello_gui.o: src/hello_gui.cpp.o
 # target to build an object file
 src/hello_gui.cpp.o:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/hello_gui.cpp.o
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.o
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o
 .PHONY : src/hello_gui.cpp.o
@@ -839,6 +951,7 @@ src/hello_gui.i: src/hello_gui.cpp.i
 # target to preprocess a source file
 src/hello_gui.cpp.i:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/hello_gui.cpp.i
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.i
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.i
 .PHONY : src/hello_gui.cpp.i
@@ -850,6 +963,7 @@ src/hello_gui.s: src/hello_gui.cpp.s
 # target to generate assembly for a file
 src/hello_gui.cpp.s:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/hello_gui.cpp.s
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.s
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.s
 .PHONY : src/hello_gui.cpp.s
@@ -931,10 +1045,13 @@ help:
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_nodejs"
+	@echo "... test"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... frame2"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... rebuild_cache"
@@ -947,11 +1064,16 @@ help:
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... talker"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... test"
 	@echo "... listener_autogen"
+	@echo "... frame2_autogen"
 	@echo "... hello_gui_node_autogen"
 	@echo "... talker_autogen"
+	@echo "... frame2_autogen/UVLADIE3JM/qrc_res.o"
+	@echo "... frame2_autogen/UVLADIE3JM/qrc_res.i"
+	@echo "... frame2_autogen/UVLADIE3JM/qrc_res.s"
+	@echo "... frame2_autogen/mocs_compilation.o"
+	@echo "... frame2_autogen/mocs_compilation.i"
+	@echo "... frame2_autogen/mocs_compilation.s"
 	@echo "... hello_gui_node_autogen/UVLADIE3JM/qrc_res.o"
 	@echo "... hello_gui_node_autogen/UVLADIE3JM/qrc_res.i"
 	@echo "... hello_gui_node_autogen/UVLADIE3JM/qrc_res.s"
@@ -964,6 +1086,9 @@ help:
 	@echo "... listener_autogen/mocs_compilation.o"
 	@echo "... listener_autogen/mocs_compilation.i"
 	@echo "... listener_autogen/mocs_compilation.s"
+	@echo "... nodes/frame2.o"
+	@echo "... nodes/frame2.i"
+	@echo "... nodes/frame2.s"
 	@echo "... nodes/hello_gui_node.o"
 	@echo "... nodes/hello_gui_node.i"
 	@echo "... nodes/hello_gui_node.s"

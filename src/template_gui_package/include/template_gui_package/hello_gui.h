@@ -29,6 +29,7 @@ public:
 
   //void callback(const sensor_msgs::Image::ConstPtr& msg);
   void imageCallback(const sensor_msgs::Image::ConstPtr& msg);
+  void imageCallback1(const sensor_msgs::Image::ConstPtr& msg);
   void closeEvent(QCloseEvent *event);
   void mouseMoveEvent(QMouseEvent* event);
   void mousePressEvent(QMouseEvent* event);
@@ -45,6 +46,10 @@ private slots:
 
   void on_pushButtonCamera_clicked();
 
+  void on_pushButton_4_clicked();
+
+  void on_pushButton_clicked();
+
 private:
   Ui::helloGui *ui;
   QTimer *ros_timer;
@@ -52,7 +57,7 @@ private:
   ros::NodeHandlePtr nhPtr;
   ros::NodeHandlePtr nhPtr1;
   ros::Subscriber sub;
-  ros::Publisher pub;
+  ros::Subscriber sub1;
 };
 
 #endif // HELLO_GUI_H

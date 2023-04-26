@@ -59,6 +59,8 @@ opencv4/opencv2/imgproc/imgproc.hpp
 -
 vector
 -
+math.h
+-
 
 /opt/ros/noetic/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h
@@ -5552,6 +5554,10 @@ qboxlayout.h
 qlabel.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
+qlineedit.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
 qmainwindow.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
@@ -5568,6 +5574,10 @@ qmenubar.h
 qpushbutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSlider
+qslider.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem
 qlayoutitem.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
@@ -5575,6 +5585,10 @@ qlayoutitem.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
 qstatusbar.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
+qboxlayout.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
 qwidget.h
@@ -5586,6 +5600,12 @@ QtWidgets/qtwidgetsglobal.h
 QtGui/qicon.h
 -
 QtGui/qkeysequence.h
+-
+QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
+QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
@@ -5698,6 +5718,18 @@ QtCore/qrect.h
 limits.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
+-
+QtGui/qtextcursor.h
+-
+QtCore/qstring.h
+-
+QtCore/qmargins.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -5736,6 +5768,12 @@ QtWidgets/qtwidgetsglobal.h
 QtCore/qobject.h
 -
 QtCore/qalgorithms.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractslider.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h
@@ -5805,6 +5843,8 @@ QtWidgets/QHBoxLayout
 -
 QtWidgets/QLabel
 -
+QtWidgets/QLineEdit
+-
 QtWidgets/QMainWindow
 -
 QtWidgets/QMenu
@@ -5813,9 +5853,13 @@ QtWidgets/QMenuBar
 -
 QtWidgets/QPushButton
 -
+QtWidgets/QSlider
+-
 QtWidgets/QSpacerItem
 -
 QtWidgets/QStatusBar
+-
+QtWidgets/QVBoxLayout
 -
 QtWidgets/QWidget
 -

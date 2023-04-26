@@ -27,7 +27,7 @@ int main(int argc, char **argv)
   ros::NodeHandle n("~");
   ros::Publisher pub = n.advertise<sensor_msgs::Image>("frame", 1);
 
-  VideoCapture cap(0);
+  VideoCapture cap(2);
   if (!cap.isOpened())
   {
       ROS_ERROR("Failed to open camera");

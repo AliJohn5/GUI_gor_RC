@@ -1,0 +1,25 @@
+{
+	"BUILD_DIR" : "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/frame2_autogen",
+	"CMAKE_BINARY_DIR" : "/home/alijohn/Desktop/temp_for_gui/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package",
+	"CMAKE_SOURCE_DIR" : "/home/alijohn/Desktop/temp_for_gui/src",
+	"INCLUDE_DIR" : "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/frame2_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/cameraicon.jpg",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/back.jpg",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/arm.jpeg",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac.jpg"
+	],
+	"LOCK_FILE" : "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/frame2_autogen.dir/AutoRcc_res_UVLADIE3JM_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "res" ],
+	"OUTPUT_CHECKSUM" : "UVLADIE3JM",
+	"OUTPUT_NAME" : "qrc_res.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/frame2_autogen.dir/AutoRcc_res_UVLADIE3JM_Used.txt",
+	"SOURCE" : "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/res.qrc",
+	"VERBOSITY" : 0
+}
