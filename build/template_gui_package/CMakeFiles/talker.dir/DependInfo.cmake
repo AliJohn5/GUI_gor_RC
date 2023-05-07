@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/nodes/talker.cpp" "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/talker.dir/nodes/talker.cpp.o"
   "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp" "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o"
+  "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow2.cpp" "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/talker.dir/src/mainwindow2.cpp.o"
   "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/talker_autogen/UVLADIE3JM/qrc_res.cpp" "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/talker.dir/talker_autogen/UVLADIE3JM/qrc_res.cpp.o"
   "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/talker_autogen/mocs_compilation.cpp" "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/talker.dir/talker_autogen/mocs_compilation.cpp.o"
   )

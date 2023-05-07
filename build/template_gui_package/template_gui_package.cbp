@@ -772,6 +772,18 @@
 			<Option target="hello_gui_node"/>
 			<Option target="talker"/>
 		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow2.h">
+			<Option target="listener"/>
+			<Option target="frame2"/>
+			<Option target="hello_gui_node"/>
+			<Option target="talker"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow2.ui">
+			<Option target="listener"/>
+			<Option target="frame2"/>
+			<Option target="hello_gui_node"/>
+			<Option target="talker"/>
+		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/rrtstar.h">
 			<Option target="listener"/>
 			<Option target="frame2"/>
@@ -791,6 +803,12 @@
 			<Option target="talker"/>
 		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp">
+			<Option target="listener"/>
+			<Option target="frame2"/>
+			<Option target="hello_gui_node"/>
+			<Option target="talker"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow2.cpp">
 			<Option target="listener"/>
 			<Option target="frame2"/>
 			<Option target="hello_gui_node"/>

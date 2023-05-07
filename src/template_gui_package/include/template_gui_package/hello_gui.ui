@@ -272,7 +272,7 @@ background-color: #FFA500;
 </string>
               </property>
               <property name="text">
-               <string/>
+               <string>window2</string>
               </property>
              </widget>
             </item>

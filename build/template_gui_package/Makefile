@@ -968,6 +968,42 @@ src/hello_gui.cpp.s:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.s
 .PHONY : src/hello_gui.cpp.s
 
+src/mainwindow2.o: src/mainwindow2.cpp.o
+
+.PHONY : src/mainwindow2.o
+
+# target to build an object file
+src/mainwindow2.cpp.o:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/mainwindow2.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/mainwindow2.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/mainwindow2.cpp.o
+.PHONY : src/mainwindow2.cpp.o
+
+src/mainwindow2.i: src/mainwindow2.cpp.i
+
+.PHONY : src/mainwindow2.i
+
+# target to preprocess a source file
+src/mainwindow2.cpp.i:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/mainwindow2.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/mainwindow2.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/mainwindow2.cpp.i
+.PHONY : src/mainwindow2.cpp.i
+
+src/mainwindow2.s: src/mainwindow2.cpp.s
+
+.PHONY : src/mainwindow2.s
+
+# target to generate assembly for a file
+src/mainwindow2.cpp.s:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/mainwindow2.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/mainwindow2.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/mainwindow2.cpp.s
+.PHONY : src/mainwindow2.cpp.s
+
 talker_autogen/UVLADIE3JM/qrc_res.o: talker_autogen/UVLADIE3JM/qrc_res.cpp.o
 
 .PHONY : talker_autogen/UVLADIE3JM/qrc_res.o
@@ -1101,6 +1137,9 @@ help:
 	@echo "... src/hello_gui.o"
 	@echo "... src/hello_gui.i"
 	@echo "... src/hello_gui.s"
+	@echo "... src/mainwindow2.o"
+	@echo "... src/mainwindow2.i"
+	@echo "... src/mainwindow2.s"
 	@echo "... talker_autogen/UVLADIE3JM/qrc_res.o"
 	@echo "... talker_autogen/UVLADIE3JM/qrc_res.i"
 	@echo "... talker_autogen/UVLADIE3JM/qrc_res.s"

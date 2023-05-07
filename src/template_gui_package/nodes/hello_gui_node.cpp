@@ -1,6 +1,7 @@
 #include<QApplication>
 #include<QPushButton>
 #include "hello_gui.h"
+#include "mainwindow2.h"
 //#include "mainwindow.h"
 void runNodes()
 {

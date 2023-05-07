@@ -8,8 +8,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/frame2.dir/frame2_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/frame2.dir/nodes/frame2.cpp.o"
   "CMakeFiles/frame2.dir/src/hello_gui.cpp.o"
+  "CMakeFiles/frame2.dir/src/mainwindow2.cpp.o"
   "frame2_autogen/UVLADIE3JM/qrc_res.cpp"
   "ui_hello_gui.h"
+  "ui_mainwindow2.h"
 )
 
 # Per-language clean rules from dependency scanning.

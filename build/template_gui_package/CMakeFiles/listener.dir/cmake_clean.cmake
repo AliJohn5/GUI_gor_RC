@@ -8,8 +8,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/listener.dir/listener_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/listener.dir/nodes/listener.cpp.o"
   "CMakeFiles/listener.dir/src/hello_gui.cpp.o"
+  "CMakeFiles/listener.dir/src/mainwindow2.cpp.o"
   "listener_autogen/UVLADIE3JM/qrc_res.cpp"
   "ui_hello_gui.h"
+  "ui_mainwindow2.h"
 )
 
 # Per-language clean rules from dependency scanning.

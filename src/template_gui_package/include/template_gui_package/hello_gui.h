@@ -18,6 +18,7 @@
 #include <vector>
 #include<math.h>
 #include<QLabel>
+#include "mainwindow2.h"
 
 using std::vector;
 
@@ -87,12 +88,14 @@ public:
   explicit helloGui(QWidget *parent = nullptr);
   ~helloGui();
 
+
   //void callback(const sensor_msgs::Image::ConstPtr& msg);
   void imageCallback(const sensor_msgs::Image::ConstPtr& msg);
   void imageCallback1(const sensor_msgs::Image::ConstPtr& msg);
   void closeEvent(QCloseEvent *event);
   void mouseMoveEvent(QMouseEvent* event);
-  //void mousePressEvent(QMouseEvent* event);
+  MainWindow2 *second;
+
   QPixmap  qim;
 
 
@@ -110,6 +113,13 @@ public:
 public slots:
   void spinOnce();
   void spin();
+  void openSecondWindow();
+public slots:
+    void receiveData(int data) {
+        // Use the data received here
+      qDebug()<<"helloGui receive: "<<data;
+    }
+
 
 private slots:
 
@@ -126,7 +136,9 @@ private slots:
 
   void on_actioncamera_2_ON_OFF_triggered();
 
-  private:
+  void on_pushButton_7_clicked();
+
+private:
   Ui::helloGui *ui;
   QTimer *ros_timer;
 

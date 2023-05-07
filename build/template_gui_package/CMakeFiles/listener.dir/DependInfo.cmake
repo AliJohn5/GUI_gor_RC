@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/listener_autogen/mocs_compilation.cpp" "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/listener.dir/listener_autogen/mocs_compilation.cpp.o"
   "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/nodes/listener.cpp" "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/listener.dir/nodes/listener.cpp.o"
   "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp" "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.o"
+  "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow2.cpp" "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/listener.dir/src/mainwindow2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

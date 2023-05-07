@@ -61,6 +61,10 @@ template_gui_package/ui_hello_gui.h: /home/alijohn/Desktop/temp_for_gui/src/temp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_hello_gui.h"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/lib/qt5/bin/uic -o /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/ui_hello_gui.h /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/hello_gui.ui
 
+template_gui_package/ui_mainwindow2.h: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow2.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_mainwindow2.h"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/lib/qt5/bin/uic -o /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/ui_mainwindow2.h /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow2.ui
+
 template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/res.qrc
 template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/AutoRcc_res_UVLADIE3JM_Info.json
 template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/cameraicon.jpg
@@ -72,12 +76,12 @@ template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijoh
 template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac.jpg
 template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac3.png
 template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /usr/lib/qt5/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for src/res.qrc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Automatic RCC for src/res.qrc"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/cmake -E cmake_autorcc /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/AutoRcc_res_UVLADIE3JM_Info.json Debug
 
 template_gui_package/CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/mocs_compilation.cpp.o: template_gui_package/CMakeFiles/hello_gui_node.dir/flags.make
 template_gui_package/CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/mocs_compilation.cpp.o: template_gui_package/hello_gui_node_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object template_gui_package/CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object template_gui_package/CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/mocs_compilation.cpp.o"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/mocs_compilation.cpp.o -c /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/hello_gui_node_autogen/mocs_compilation.cpp
 
 template_gui_package/CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/mocs_compilation.cpp.i: cmake_force
@@ -90,7 +94,7 @@ template_gui_package/CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/mocs_c
 
 template_gui_package/CMakeFiles/hello_gui_node.dir/nodes/hello_gui_node.cpp.o: template_gui_package/CMakeFiles/hello_gui_node.dir/flags.make
 template_gui_package/CMakeFiles/hello_gui_node.dir/nodes/hello_gui_node.cpp.o: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/nodes/hello_gui_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object template_gui_package/CMakeFiles/hello_gui_node.dir/nodes/hello_gui_node.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object template_gui_package/CMakeFiles/hello_gui_node.dir/nodes/hello_gui_node.cpp.o"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello_gui_node.dir/nodes/hello_gui_node.cpp.o -c /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/nodes/hello_gui_node.cpp
 
 template_gui_package/CMakeFiles/hello_gui_node.dir/nodes/hello_gui_node.cpp.i: cmake_force
@@ -103,7 +107,7 @@ template_gui_package/CMakeFiles/hello_gui_node.dir/nodes/hello_gui_node.cpp.s: c
 
 template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.o: template_gui_package/CMakeFiles/hello_gui_node.dir/flags.make
 template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.o: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.o"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.o -c /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp
 
 template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.i: cmake_force
@@ -114,9 +118,22 @@ template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.s"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp -o CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.s
 
+template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.o: template_gui_package/CMakeFiles/hello_gui_node.dir/flags.make
+template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.o: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.o"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.o -c /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow2.cpp
+
+template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.i"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow2.cpp > CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.i
+
+template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.s"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow2.cpp -o CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.s
+
 template_gui_package/CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp.o: template_gui_package/CMakeFiles/hello_gui_node.dir/flags.make
 template_gui_package/CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp.o: template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object template_gui_package/CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object template_gui_package/CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp.o"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp.o -c /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp
 
 template_gui_package/CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp.i: cmake_force
@@ -132,6 +149,7 @@ hello_gui_node_OBJECTS = \
 "CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/hello_gui_node.dir/nodes/hello_gui_node.cpp.o" \
 "CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.o" \
+"CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.o" \
 "CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp.o"
 
 # External object files for target hello_gui_node
@@ -140,6 +158,7 @@ hello_gui_node_EXTERNAL_OBJECTS =
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node: template_gui_package/CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/mocs_compilation.cpp.o
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node: template_gui_package/CMakeFiles/hello_gui_node.dir/nodes/hello_gui_node.cpp.o
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node: template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.o
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node: template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.o
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node: template_gui_package/CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp.o
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node: template_gui_package/CMakeFiles/hello_gui_node.dir/build.make
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node: /opt/ros/noetic/lib/libroscpp.so
@@ -228,7 +247,7 @@ hello_gui_node_EXTERNAL_OBJECTS =
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node: template_gui_package/CMakeFiles/hello_gui_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello_gui_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -241,6 +260,7 @@ template_gui_package/CMakeFiles/hello_gui_node.dir/clean:
 .PHONY : template_gui_package/CMakeFiles/hello_gui_node.dir/clean
 
 template_gui_package/CMakeFiles/hello_gui_node.dir/depend: template_gui_package/ui_hello_gui.h
+template_gui_package/CMakeFiles/hello_gui_node.dir/depend: template_gui_package/ui_mainwindow2.h
 template_gui_package/CMakeFiles/hello_gui_node.dir/depend: template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alijohn/Desktop/temp_for_gui/src /home/alijohn/Desktop/temp_for_gui/src/template_gui_package /home/alijohn/Desktop/temp_for_gui/build /home/alijohn/Desktop/temp_for_gui/build/template_gui_package /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/hello_gui_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : template_gui_package/CMakeFiles/hello_gui_node.dir/depend

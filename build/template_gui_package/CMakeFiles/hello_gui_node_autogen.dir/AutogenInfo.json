@@ -13,6 +13,11 @@
 			"6PKUJRDHSE/moc_hello_gui.cpp"
 		],
 		[
+			"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow2.h",
+			"Mu",
+			"6PKUJRDHSE/moc_mainwindow2.cpp"
+		],
+		[
 			"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/rrtstar.h",
 			"Mu",
 			"6PKUJRDHSE/moc_rrtstar.cpp"
@@ -106,6 +111,10 @@
 		],
 		[
 			"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp",
+			"Mu"
+		],
+		[
+			"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow2.cpp",
 			"Mu"
 		]
 	],

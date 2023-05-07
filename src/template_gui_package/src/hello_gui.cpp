@@ -13,6 +13,8 @@ helloGui::helloGui(QWidget *parent) :
 {
   ui->setupUi(this);
   lab = ui->label_2;
+  second = new MainWindow2(this);
+  QObject::connect(second, &MainWindow2::dataToSend, this, &helloGui::receiveData);
   nhPtr.reset(new ros::NodeHandle("~"));
   nhPtr1.reset(new ros::NodeHandle("~"));
 
@@ -50,6 +52,12 @@ void helloGui::spin()
     QApplication::quit();
   }
 }
+
+void helloGui::openSecondWindow() {
+  second->show();
+}
+
+
 
 
 
@@ -385,4 +393,10 @@ void helloGui::CustomLabel::mousePressEvent(QMouseEvent *event)
   int w = lab->width();
   int h = lab->height();
   lab->setPixmap( m.scaled(w,h) );
+}
+
+
+void helloGui::on_pushButton_7_clicked()
+{
+  openSecondWindow();
 }

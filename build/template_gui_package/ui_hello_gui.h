@@ -349,7 +349,7 @@ public:
         pushButton_9->setText(QString());
         pushButton_3->setText(QString());
         pushButton->setText(QApplication::translate("helloGui", "Enter", nullptr));
-        pushButton_7->setText(QString());
+        pushButton_7->setText(QApplication::translate("helloGui", "window2", nullptr));
         pushButton_2->setText(QString());
         pushButton_8->setText(QString());
         menuoption->setTitle(QApplication::translate("helloGui", "option", nullptr));

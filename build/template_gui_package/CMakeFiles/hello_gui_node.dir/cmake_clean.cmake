@@ -8,8 +8,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/hello_gui_node.dir/hello_gui_node_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/hello_gui_node.dir/nodes/hello_gui_node.cpp.o"
   "CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.o"
+  "CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.o"
   "hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp"
   "ui_hello_gui.h"
+  "ui_mainwindow2.h"
 )
 
 # Per-language clean rules from dependency scanning.
