@@ -64,9 +64,13 @@ template_gui_package/ui_hello_gui.h: /home/alijohn/Desktop/temp_for_gui/src/temp
 template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/res.qrc
 template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/AutoRcc_res_UVLADIE3JM_Info.json
 template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/cameraicon.jpg
+template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac2.png
 template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/back.jpg
 template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/arm.jpeg
+template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac4.png
+template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hi.png
 template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac.jpg
+template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac3.png
 template_gui_package/hello_gui_node_autogen/UVLADIE3JM/qrc_res.cpp: /usr/lib/qt5/bin/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for src/res.qrc"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/cmake -E cmake_autorcc /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/AutoRcc_res_UVLADIE3JM_Info.json Debug

@@ -8,9 +8,13 @@
 	"INPUTS" : 
 	[
 		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/cameraicon.jpg",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac2.png",
 		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/back.jpg",
 		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/arm.jpeg",
-		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac.jpg"
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac4.png",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hi.png",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac.jpg",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac3.png"
 	],
 	"LOCK_FILE" : "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/AutoRcc_res_UVLADIE3JM_Lock.lock",
 	"MULTI_CONFIG" : false,

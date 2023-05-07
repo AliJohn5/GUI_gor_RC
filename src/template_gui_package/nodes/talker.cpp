@@ -14,33 +14,30 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-/********************************************************************
-*                                                                   *
-*  [[534.700827     0.         298.69428531]                        *
-*  [  0.         538.68726057 241.95964821]                         *
-*  [  0.           0.           1.        ]]                        *
-*  Distortion coefficients:                                         *
-*    [[ 0.26141142 -0.89287148 -0.01289938 -0.00444268  1.06370115]]*
-*********************************************************************/
+/*
+ *
+ * down camera
+ *
+ * */
 
   ros::init(argc, argv, "talker");
   ros::NodeHandle n("~");
   ros::Publisher pub = n.advertise<sensor_msgs::Image>("frame", 1);
 
-  VideoCapture cap(2);
+  VideoCapture cap(0);
   if (!cap.isOpened())
   {
       ROS_ERROR("Failed to open camera");
       return -1;
   }
 
-  ros::Rate loop_rate(30);
+  ros::Rate loop_rate(100);
   while (ros::ok())
   {
-     cv::Mat intrinsic_matrix = (cv::Mat_<double>(3, 3) << 534.700827,0.,298.69428531,
-                                                           0.,538.68726057,241.95964821,
+     cv::Mat intrinsic_matrix = (cv::Mat_<double>(3, 3) << 526.36242209  , 0.       ,  301.72803301,
+                                                           0.,525.22844252 ,255.19490125,
                                                            0.,0.,1.);
-      cv::Mat distortion_coeffs = (cv::Mat_<double>(1, 5) << 0.26141142,-0.89287148 ,-0.01289938,-0.00444268,1.06370115);
+      cv::Mat distortion_coeffs = (cv::Mat_<double>(1, 5) << 0.2645315 , -1.02914488 ,-0.0024316 , -0.00373515 , 1.4652433);
       Mat frame;
       cap >> frame;
       if (frame.empty())

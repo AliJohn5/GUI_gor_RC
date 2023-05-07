@@ -202,6 +202,7 @@ template_gui_package/CMakeFiles/talker.dir/nodes/talker.cpp.o
  /usr/include/opencv4/opencv2/viz/widgets.hpp
 template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o
  /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/hello_gui.h
+ /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/rrtstar.h
  /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp
  /opt/ros/noetic/include/cv_bridge/cv_bridge.h
  /opt/ros/noetic/include/ros/advertise_options.h
@@ -728,6 +729,7 @@ template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QAction
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
@@ -736,13 +738,12 @@ template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenu
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSlider
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QToolBar
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
@@ -759,9 +760,9 @@ template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtoolbar.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h

@@ -4,5 +4,9 @@
         <file>cameraicon.jpg</file>
         <file>arm.jpeg</file>
         <file>back.jpg</file>
+        <file>bac2.png</file>
+        <file>bac3.png</file>
+        <file>bac4.png</file>
+        <file>hi.png</file>
     </qresource>
 </RCC>

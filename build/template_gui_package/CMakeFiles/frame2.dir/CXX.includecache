@@ -23,15 +23,43 @@ cv_bridge/cv_bridge.h
 -
 sensor_msgs/Image.h
 -
-QCloseEvent
--
-QLabel
+QMouseEvent
 -
 QPixmap
 -
-QMouseEvent
+QImage
 -
 QDebug
+-
+QCloseEvent
+-
+event.h
+-
+vector
+-
+math.h
+-
+QLabel
+-
+
+/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/rrtstar.h
+iostream
+-
+vector
+-
+algorithm
+-
+time.h
+-
+cstdlib
+-
+vector
+-
+math.h
+-
+set
+-
+random
 -
 
 /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp
@@ -39,28 +67,8 @@ hello_gui.h
 /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.h
 ui_hello_gui.h
 /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/ui_hello_gui.h
-QPixmap
--
-QImage
--
-QDebug
--
-iostream
--
-QCloseEvent
--
-event.h
--
-QLabel
--
-opencv4/opencv2/highgui/highgui.hpp
--
-opencv4/opencv2/imgproc/imgproc.hpp
--
-vector
--
-math.h
--
+rrtstar.h
+/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/rrtstar.h
 
 /opt/ros/noetic/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h
@@ -5542,6 +5550,10 @@ qaction.h
 qapplication.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
+qframe.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
 qgridlayout.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
@@ -5574,10 +5586,6 @@ qmenubar.h
 qpushbutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSlider
-qslider.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem
 qlayoutitem.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
@@ -5585,6 +5593,10 @@ qlayoutitem.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
 qstatusbar.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QToolBar
+qtoolbar.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtoolbar.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
 qboxlayout.h
@@ -5600,12 +5612,6 @@ QtWidgets/qtwidgetsglobal.h
 QtGui/qicon.h
 -
 QtGui/qkeysequence.h
--
-QtWidgets/qwidget.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h
-QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
 -
@@ -5770,12 +5776,6 @@ QtCore/qobject.h
 QtCore/qalgorithms.h
 -
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qabstractslider.h
--
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -5788,6 +5788,14 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 QtGui/qicon.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtoolbar.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qaction.h
+-
+QtWidgets/qwidget.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
@@ -5837,6 +5845,8 @@ QtWidgets/QAction
 -
 QtWidgets/QApplication
 -
+QtWidgets/QFrame
+-
 QtWidgets/QGridLayout
 -
 QtWidgets/QHBoxLayout
@@ -5853,14 +5863,16 @@ QtWidgets/QMenuBar
 -
 QtWidgets/QPushButton
 -
-QtWidgets/QSlider
--
 QtWidgets/QSpacerItem
 -
 QtWidgets/QStatusBar
 -
+QtWidgets/QToolBar
+-
 QtWidgets/QVBoxLayout
 -
 QtWidgets/QWidget
+-
+hello_gui.h
 -
 

@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QFrame>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
@@ -20,11 +21,12 @@
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QSlider>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QToolBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
+#include <hello_gui.h>
 
 QT_BEGIN_NAMESPACE
 
@@ -32,71 +34,79 @@ class Ui_helloGui
 {
 public:
     QAction *actionopen_camera;
+    QAction *actioncamera_2_ON_OFF;
     QWidget *centralwidget;
-    QVBoxLayout *verticalLayout_4;
+    QGridLayout *gridLayout_2;
+    QVBoxLayout *verticalLayout;
     QGridLayout *gridLayout;
     QHBoxLayout *horizontalLayout;
-    QLabel *label;
+    helloGui::CustomLabel *label;
     QSpacerItem *horizontalSpacer;
-    QLabel *frame_2_label;
+    helloGui::CustomLabel *frame_2_label;
     QSpacerItem *horizontalSpacer_2;
     QLabel *label_2;
-    QSpacerItem *verticalSpacer;
-    QLineEdit *lineEdit;
-    QHBoxLayout *horizontalLayout_10;
-    QVBoxLayout *verticalLayout;
     QHBoxLayout *horizontalLayout_3;
-    QLabel *label_3;
-    QSlider *min_v_slider;
-    QHBoxLayout *horizontalLayout_4;
-    QLabel *label_4;
-    QSlider *max_v_slider_2;
-    QHBoxLayout *horizontalLayout_5;
-    QLabel *label_5;
-    QSlider *min_s_slider;
-    QHBoxLayout *horizontalLayout_6;
-    QLabel *label_6;
-    QSlider *max_s_slider;
-    QHBoxLayout *horizontalLayout_7;
-    QLabel *label_7;
-    QSlider *min_v_slider_2;
-    QHBoxLayout *horizontalLayout_8;
-    QLabel *label_8;
-    QSlider *max_v_slider;
+    QSpacerItem *horizontalSpacer_4;
+    QPushButton *pushButtonCamera;
+    QSpacerItem *horizontalSpacer_3;
+    QPushButton *pushButton_4;
+    QSpacerItem *horizontalSpacer_5;
+    QFrame *line;
+    QSpacerItem *verticalSpacer;
+    QHBoxLayout *horizontalLayout_2;
+    QHBoxLayout *horizontalLayout_10;
     QHBoxLayout *horizontalLayout_9;
     QVBoxLayout *verticalLayout_2;
-    QPushButton *pushButton;
-    QPushButton *pushButton_3;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_4;
-    QPushButton *pushButtonCamera;
-    QVBoxLayout *verticalLayout_3;
     QPushButton *pushButton_5;
     QPushButton *pushButton_6;
+    QPushButton *pushButton_9;
+    QPushButton *pushButton_3;
+    QVBoxLayout *verticalLayout_3;
+    QPushButton *pushButton;
     QPushButton *pushButton_7;
+    QPushButton *pushButton_2;
     QPushButton *pushButton_8;
+    QVBoxLayout *verticalLayout_4;
+    QLineEdit *lineEdit;
+    QLineEdit *lineEdit_2;
+    QLineEdit *lineEdit_4;
+    QLineEdit *lineEdit_3;
     QMenuBar *menubar;
     QMenu *menuoption;
     QStatusBar *statusbar;
+    QToolBar *toolBar;
 
     void setupUi(QMainWindow *helloGui)
     {
         if (helloGui->objectName().isEmpty())
             helloGui->setObjectName(QString::fromUtf8("helloGui"));
         helloGui->resize(1132, 638);
-        helloGui->setStyleSheet(QString::fromUtf8("border-image: url(:/new/prefix1/back.jpg);"));
+        helloGui->setStyleSheet(QString::fromUtf8(""));
         actionopen_camera = new QAction(helloGui);
         actionopen_camera->setObjectName(QString::fromUtf8("actionopen_camera"));
+        actionopen_camera->setCheckable(true);
+        actionopen_camera->setChecked(false);
+        actionopen_camera->setEnabled(true);
+        QIcon icon;
+        icon.addFile(QString::fromUtf8("../../src/cameraicon.jpg"), QSize(), QIcon::Normal, QIcon::Off);
+        actionopen_camera->setIcon(icon);
+        actioncamera_2_ON_OFF = new QAction(helloGui);
+        actioncamera_2_ON_OFF->setObjectName(QString::fromUtf8("actioncamera_2_ON_OFF"));
+        actioncamera_2_ON_OFF->setCheckable(true);
+        actioncamera_2_ON_OFF->setIcon(icon);
         centralwidget = new QWidget(helloGui);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        verticalLayout_4 = new QVBoxLayout(centralwidget);
-        verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
+        gridLayout_2 = new QGridLayout(centralwidget);
+        gridLayout_2->setObjectName(QString::fromUtf8("gridLayout_2"));
+        verticalLayout = new QVBoxLayout();
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         gridLayout = new QGridLayout();
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        label = new QLabel(centralwidget);
+        label = new helloGui::CustomLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
+        label->setStyleSheet(QString::fromUtf8("border-color: rgb(193, 125, 17);"));
 
         horizontalLayout->addWidget(label);
 
@@ -104,8 +114,10 @@ public:
 
         horizontalLayout->addItem(horizontalSpacer);
 
-        frame_2_label = new QLabel(centralwidget);
+        frame_2_label = new helloGui::CustomLabel(centralwidget);
         frame_2_label->setObjectName(QString::fromUtf8("frame_2_label"));
+        frame_2_label->setStyleSheet(QString::fromUtf8("border-color: rgb(193, 125, 17);\n"
+""));
 
         horizontalLayout->addWidget(frame_2_label);
 
@@ -115,6 +127,7 @@ public:
 
         label_2 = new QLabel(centralwidget);
         label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setStyleSheet(QString::fromUtf8("border-color: rgb(193, 125, 17);"));
 
         horizontalLayout->addWidget(label_2);
 
@@ -122,173 +135,129 @@ public:
         gridLayout->addLayout(horizontalLayout, 0, 0, 1, 1);
 
 
-        verticalLayout_4->addLayout(gridLayout);
+        verticalLayout->addLayout(gridLayout);
 
-        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Fixed);
-
-        verticalLayout_4->addItem(verticalSpacer);
-
-        lineEdit = new QLineEdit(centralwidget);
-        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
-
-        verticalLayout_4->addWidget(lineEdit);
-
-        horizontalLayout_10 = new QHBoxLayout();
-        horizontalLayout_10->setObjectName(QString::fromUtf8("horizontalLayout_10"));
-        verticalLayout = new QVBoxLayout();
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         horizontalLayout_3 = new QHBoxLayout();
         horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
-        label_3 = new QLabel(centralwidget);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
+        horizontalSpacer_4 = new QSpacerItem(40, 20, QSizePolicy::Maximum, QSizePolicy::Minimum);
 
-        horizontalLayout_3->addWidget(label_3);
+        horizontalLayout_3->addItem(horizontalSpacer_4);
 
-        min_v_slider = new QSlider(centralwidget);
-        min_v_slider->setObjectName(QString::fromUtf8("min_v_slider"));
-        min_v_slider->setOrientation(Qt::Horizontal);
+        pushButtonCamera = new QPushButton(centralwidget);
+        pushButtonCamera->setObjectName(QString::fromUtf8("pushButtonCamera"));
+        pushButtonCamera->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: #FFA500;\n"
+""));
 
-        horizontalLayout_3->addWidget(min_v_slider);
+        horizontalLayout_3->addWidget(pushButtonCamera);
+
+        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_3->addItem(horizontalSpacer_3);
+
+        pushButton_4 = new QPushButton(centralwidget);
+        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
+        pushButton_4->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: #FFA500;\n"
+""));
+
+        horizontalLayout_3->addWidget(pushButton_4);
+
+        horizontalSpacer_5 = new QSpacerItem(40, 20, QSizePolicy::Maximum, QSizePolicy::Minimum);
+
+        horizontalLayout_3->addItem(horizontalSpacer_5);
 
 
         verticalLayout->addLayout(horizontalLayout_3);
 
-        horizontalLayout_4 = new QHBoxLayout();
-        horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
-        label_4 = new QLabel(centralwidget);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
 
-        horizontalLayout_4->addWidget(label_4);
+        gridLayout_2->addLayout(verticalLayout, 0, 0, 1, 1);
 
-        max_v_slider_2 = new QSlider(centralwidget);
-        max_v_slider_2->setObjectName(QString::fromUtf8("max_v_slider_2"));
-        max_v_slider_2->setOrientation(Qt::Horizontal);
+        line = new QFrame(centralwidget);
+        line->setObjectName(QString::fromUtf8("line"));
+        line->setFrameShadow(QFrame::Plain);
+        line->setFrameShape(QFrame::HLine);
 
-        horizontalLayout_4->addWidget(max_v_slider_2);
+        gridLayout_2->addWidget(line, 1, 0, 1, 2);
 
+        verticalSpacer = new QSpacerItem(8, 18, QSizePolicy::Minimum, QSizePolicy::Fixed);
 
-        verticalLayout->addLayout(horizontalLayout_4);
+        gridLayout_2->addItem(verticalSpacer, 2, 1, 1, 1);
 
-        horizontalLayout_5 = new QHBoxLayout();
-        horizontalLayout_5->setObjectName(QString::fromUtf8("horizontalLayout_5"));
-        label_5 = new QLabel(centralwidget);
-        label_5->setObjectName(QString::fromUtf8("label_5"));
-
-        horizontalLayout_5->addWidget(label_5);
-
-        min_s_slider = new QSlider(centralwidget);
-        min_s_slider->setObjectName(QString::fromUtf8("min_s_slider"));
-        min_s_slider->setOrientation(Qt::Horizontal);
-
-        horizontalLayout_5->addWidget(min_s_slider);
-
-
-        verticalLayout->addLayout(horizontalLayout_5);
-
-        horizontalLayout_6 = new QHBoxLayout();
-        horizontalLayout_6->setObjectName(QString::fromUtf8("horizontalLayout_6"));
-        label_6 = new QLabel(centralwidget);
-        label_6->setObjectName(QString::fromUtf8("label_6"));
-
-        horizontalLayout_6->addWidget(label_6);
-
-        max_s_slider = new QSlider(centralwidget);
-        max_s_slider->setObjectName(QString::fromUtf8("max_s_slider"));
-        max_s_slider->setOrientation(Qt::Horizontal);
-
-        horizontalLayout_6->addWidget(max_s_slider);
-
-
-        verticalLayout->addLayout(horizontalLayout_6);
-
-        horizontalLayout_7 = new QHBoxLayout();
-        horizontalLayout_7->setObjectName(QString::fromUtf8("horizontalLayout_7"));
-        label_7 = new QLabel(centralwidget);
-        label_7->setObjectName(QString::fromUtf8("label_7"));
-
-        horizontalLayout_7->addWidget(label_7);
-
-        min_v_slider_2 = new QSlider(centralwidget);
-        min_v_slider_2->setObjectName(QString::fromUtf8("min_v_slider_2"));
-        min_v_slider_2->setOrientation(Qt::Horizontal);
-
-        horizontalLayout_7->addWidget(min_v_slider_2);
-
-
-        verticalLayout->addLayout(horizontalLayout_7);
-
-        horizontalLayout_8 = new QHBoxLayout();
-        horizontalLayout_8->setObjectName(QString::fromUtf8("horizontalLayout_8"));
-        label_8 = new QLabel(centralwidget);
-        label_8->setObjectName(QString::fromUtf8("label_8"));
-
-        horizontalLayout_8->addWidget(label_8);
-
-        max_v_slider = new QSlider(centralwidget);
-        max_v_slider->setObjectName(QString::fromUtf8("max_v_slider"));
-        max_v_slider->setOrientation(Qt::Horizontal);
-
-        horizontalLayout_8->addWidget(max_v_slider);
-
-
-        verticalLayout->addLayout(horizontalLayout_8);
-
-
-        horizontalLayout_10->addLayout(verticalLayout);
-
+        horizontalLayout_2 = new QHBoxLayout();
+        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
+        horizontalLayout_10 = new QHBoxLayout();
+        horizontalLayout_10->setObjectName(QString::fromUtf8("horizontalLayout_10"));
         horizontalLayout_9 = new QHBoxLayout();
         horizontalLayout_9->setObjectName(QString::fromUtf8("horizontalLayout_9"));
         verticalLayout_2 = new QVBoxLayout();
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
-        pushButton = new QPushButton(centralwidget);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton_5 = new QPushButton(centralwidget);
+        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
+        pushButton_5->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: #FFA500;\n"
+""));
 
-        verticalLayout_2->addWidget(pushButton);
+        verticalLayout_2->addWidget(pushButton_5);
+
+        pushButton_6 = new QPushButton(centralwidget);
+        pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
+        pushButton_6->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: #FFA500;\n"
+""));
+
+        verticalLayout_2->addWidget(pushButton_6);
+
+        pushButton_9 = new QPushButton(centralwidget);
+        pushButton_9->setObjectName(QString::fromUtf8("pushButton_9"));
+        pushButton_9->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: #FFA500;\n"
+""));
+
+        verticalLayout_2->addWidget(pushButton_9);
 
         pushButton_3 = new QPushButton(centralwidget);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-
-        verticalLayout_2->addWidget(pushButton_3);
-
-        pushButton_2 = new QPushButton(centralwidget);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-
-        verticalLayout_2->addWidget(pushButton_2);
-
-        pushButton_4 = new QPushButton(centralwidget);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-
-        verticalLayout_2->addWidget(pushButton_4);
-
-        pushButtonCamera = new QPushButton(centralwidget);
-        pushButtonCamera->setObjectName(QString::fromUtf8("pushButtonCamera"));
-        pushButtonCamera->setStyleSheet(QString::fromUtf8("border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));\n"
+        pushButton_3->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: #FFA500;\n"
 ""));
 
-        verticalLayout_2->addWidget(pushButtonCamera);
+        verticalLayout_2->addWidget(pushButton_3);
 
 
         horizontalLayout_9->addLayout(verticalLayout_2);
 
         verticalLayout_3 = new QVBoxLayout();
         verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
-        pushButton_5 = new QPushButton(centralwidget);
-        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: #FFA500;\n"
+""));
 
-        verticalLayout_3->addWidget(pushButton_5);
-
-        pushButton_6 = new QPushButton(centralwidget);
-        pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
-
-        verticalLayout_3->addWidget(pushButton_6);
+        verticalLayout_3->addWidget(pushButton);
 
         pushButton_7 = new QPushButton(centralwidget);
         pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
+        pushButton_7->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: #FFA500;\n"
+""));
 
         verticalLayout_3->addWidget(pushButton_7);
 
+        pushButton_2 = new QPushButton(centralwidget);
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
+        pushButton_2->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: #FFA500;\n"
+""));
+
+        verticalLayout_3->addWidget(pushButton_2);
+
         pushButton_8 = new QPushButton(centralwidget);
         pushButton_8->setObjectName(QString::fromUtf8("pushButton_8"));
+        pushButton_8->setStyleSheet(QString::fromUtf8("color: rgb(0, 0, 0);\n"
+"background-color: #FFA500;\n"
+""));
 
         verticalLayout_3->addWidget(pushButton_8);
 
@@ -299,7 +268,43 @@ public:
         horizontalLayout_10->addLayout(horizontalLayout_9);
 
 
-        verticalLayout_4->addLayout(horizontalLayout_10);
+        horizontalLayout_2->addLayout(horizontalLayout_10);
+
+        verticalLayout_4 = new QVBoxLayout();
+        verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
+        lineEdit = new QLineEdit(centralwidget);
+        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+        lineEdit->setStyleSheet(QString::fromUtf8("background-color: rgb(233, 185, 110);\n"
+"border-color: rgb(233, 185, 110);"));
+
+        verticalLayout_4->addWidget(lineEdit);
+
+        lineEdit_2 = new QLineEdit(centralwidget);
+        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
+        lineEdit_2->setStyleSheet(QString::fromUtf8("background-color: rgb(233, 185, 110);\n"
+"border-color: rgb(233, 185, 110);"));
+
+        verticalLayout_4->addWidget(lineEdit_2);
+
+        lineEdit_4 = new QLineEdit(centralwidget);
+        lineEdit_4->setObjectName(QString::fromUtf8("lineEdit_4"));
+        lineEdit_4->setStyleSheet(QString::fromUtf8("background-color: rgb(233, 185, 110);\n"
+"border-color: rgb(233, 185, 110);"));
+
+        verticalLayout_4->addWidget(lineEdit_4);
+
+        lineEdit_3 = new QLineEdit(centralwidget);
+        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
+        lineEdit_3->setStyleSheet(QString::fromUtf8("background-color: rgb(233, 185, 110);\n"
+"border-color: rgb(233, 185, 110);"));
+
+        verticalLayout_4->addWidget(lineEdit_3);
+
+
+        horizontalLayout_2->addLayout(verticalLayout_4);
+
+
+        gridLayout_2->addLayout(horizontalLayout_2, 3, 0, 1, 1);
 
         helloGui->setCentralWidget(centralwidget);
         menubar = new QMenuBar(helloGui);
@@ -311,10 +316,18 @@ public:
         statusbar = new QStatusBar(helloGui);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
         helloGui->setStatusBar(statusbar);
+        toolBar = new QToolBar(helloGui);
+        toolBar->setObjectName(QString::fromUtf8("toolBar"));
+        helloGui->addToolBar(Qt::TopToolBarArea, toolBar);
 
         menubar->addAction(menuoption->menuAction());
         menuoption->addSeparator();
         menuoption->addAction(actionopen_camera);
+        menuoption->addAction(actioncamera_2_ON_OFF);
+        toolBar->addAction(actionopen_camera);
+        toolBar->addSeparator();
+        toolBar->addAction(actioncamera_2_ON_OFF);
+        toolBar->addSeparator();
 
         retranslateUi(helloGui);
 
@@ -324,26 +337,23 @@ public:
     void retranslateUi(QMainWindow *helloGui)
     {
         helloGui->setWindowTitle(QApplication::translate("helloGui", "MainWindow", nullptr));
-        actionopen_camera->setText(QApplication::translate("helloGui", "open_camera", nullptr));
+        actionopen_camera->setText(QApplication::translate("helloGui", "camera1 (ON/OFF)", nullptr));
+        actioncamera_2_ON_OFF->setText(QApplication::translate("helloGui", "camera 2 (ON/OFF)", nullptr));
         label->setText(QString());
         frame_2_label->setText(QString());
         label_2->setText(QString());
-        label_3->setText(QApplication::translate("helloGui", "minimum H", nullptr));
-        label_4->setText(QApplication::translate("helloGui", "maximum H", nullptr));
-        label_5->setText(QApplication::translate("helloGui", "minimum S", nullptr));
-        label_6->setText(QApplication::translate("helloGui", "maximum S", nullptr));
-        label_7->setText(QApplication::translate("helloGui", "minimum V", nullptr));
-        label_8->setText(QApplication::translate("helloGui", "maximum V", nullptr));
-        pushButton->setText(QApplication::translate("helloGui", "PushButton", nullptr));
-        pushButton_3->setText(QApplication::translate("helloGui", "PushButton", nullptr));
-        pushButton_2->setText(QApplication::translate("helloGui", "PushButton", nullptr));
-        pushButton_4->setText(QApplication::translate("helloGui", "PushButton", nullptr));
-        pushButtonCamera->setText(QString());
-        pushButton_5->setText(QApplication::translate("helloGui", "PushButton", nullptr));
-        pushButton_6->setText(QApplication::translate("helloGui", "PushButton", nullptr));
-        pushButton_7->setText(QApplication::translate("helloGui", "PushButton", nullptr));
-        pushButton_8->setText(QApplication::translate("helloGui", "PushButton", nullptr));
+        pushButtonCamera->setText(QApplication::translate("helloGui", "Camera 1", nullptr));
+        pushButton_4->setText(QApplication::translate("helloGui", "Camera 2", nullptr));
+        pushButton_5->setText(QString());
+        pushButton_6->setText(QString());
+        pushButton_9->setText(QString());
+        pushButton_3->setText(QString());
+        pushButton->setText(QApplication::translate("helloGui", "Enter", nullptr));
+        pushButton_7->setText(QString());
+        pushButton_2->setText(QString());
+        pushButton_8->setText(QString());
         menuoption->setTitle(QApplication::translate("helloGui", "option", nullptr));
+        toolBar->setWindowTitle(QApplication::translate("helloGui", "toolBar", nullptr));
     } // retranslateUi
 
 };

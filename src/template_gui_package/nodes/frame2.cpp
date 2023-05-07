@@ -10,7 +10,13 @@
 
 using namespace cv;
 using namespace std;
-
+/****
+ *
+ *
+ * upove camera
+ *
+ *
+ * */
 
 int main(int argc, char **argv)
 {
@@ -26,14 +32,14 @@ int main(int argc, char **argv)
       return -1;
   }
 
-  ros::Rate loop_rate(30);
+  ros::Rate loop_rate(100);
   while (ros::ok())
   {
-     /*cv::Mat intrinsic_matrix = (cv::Mat_<double>(3, 3) << 534.700827,0.,298.69428531,
-                                                           0.,538.68726057,241.95964821,
+     cv::Mat intrinsic_matrix = (cv::Mat_<double>(3, 3) << 541.17268172,0.,328.035879,
+                                                           0.,538.2898383,247.09274515,
                                                            0.,0.,1.);
-      cv::Mat distortion_coeffs = (cv::Mat_<double>(1, 5) << 0.26141142,-0.89287148 ,-0.01289938,-0.00444268,1.06370115);
-*/
+      cv::Mat distortion_coeffs = (cv::Mat_<double>(1, 5) << 0.20860047,-0.63745467,-0.00964124,0.00206615,0.6594531);
+
       Mat frame;
       cap >> frame;
       if (frame.empty())
@@ -47,7 +53,7 @@ int main(int argc, char **argv)
       flip(frame, frame, 1);
 
       cv::Mat undistorted_img;
-      //cv::undistort(frame, undistorted_img, intrinsic_matrix, distortion_coeffs);
+      cv::undistort(frame, undistorted_img, intrinsic_matrix, distortion_coeffs);
       sensor_msgs::ImagePtr msg = cv_bridge::CvImage(std_msgs::Header(), "bgr8", frame).toImageMsg();
 
       // Publish the ROS message
