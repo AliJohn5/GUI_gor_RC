@@ -32,10 +32,8 @@
   <depend>libqt5-widgets</depend>
   <depend>sensor_msgs</depend>
   <depend>cv_bridge</depend>
-
-
-
-
+  <depend>image_transport</depend>
+  <depend>libfreenect</depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>

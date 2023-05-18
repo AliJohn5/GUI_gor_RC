@@ -558,6 +558,45 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named talker
+
+# Build rule for target.
+talker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 talker
+.PHONY : talker
+
+# fast build rule for target.
+talker/fast:
+	$(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/build
+.PHONY : talker/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_eus
+
+# Build rule for target.
+geometry_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_eus
+.PHONY : geometry_msgs_generate_messages_eus
+
+# fast build rule for target.
+geometry_msgs_generate_messages_eus/fast:
+	$(MAKE) -f template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+.PHONY : geometry_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_nodejs
+
+# Build rule for target.
+std_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
+.PHONY : std_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+std_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+.PHONY : std_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_eus
 
 # Build rule for target.
@@ -597,6 +636,19 @@ rosgraph_msgs_generate_messages_nodejs/fast:
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named Kenict
+
+# Build rule for target.
+Kenict: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Kenict
+.PHONY : Kenict
+
+# fast build rule for target.
+Kenict/fast:
+	$(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/build
+.PHONY : Kenict/fast
+
+#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -621,45 +673,6 @@ hello_gui_node: cmake_check_build_system
 hello_gui_node/fast:
 	$(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/build
 .PHONY : hello_gui_node/fast
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_eus
-
-# Build rule for target.
-geometry_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_eus
-.PHONY : geometry_msgs_generate_messages_eus
-
-# fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	$(MAKE) -f template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_nodejs
-
-# Build rule for target.
-std_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named talker
-
-# Build rule for target.
-talker: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 talker
-.PHONY : talker
-
-# fast build rule for target.
-talker/fast:
-	$(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/build
-.PHONY : talker/fast
 
 #=============================================================================
 # Target rules for targets named listener_autogen
@@ -688,19 +701,6 @@ frame2_autogen/fast:
 .PHONY : frame2_autogen/fast
 
 #=============================================================================
-# Target rules for targets named hello_gui_node_autogen
-
-# Build rule for target.
-hello_gui_node_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hello_gui_node_autogen
-.PHONY : hello_gui_node_autogen
-
-# fast build rule for target.
-hello_gui_node_autogen/fast:
-	$(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/build.make template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/build
-.PHONY : hello_gui_node_autogen/fast
-
-#=============================================================================
 # Target rules for targets named talker_autogen
 
 # Build rule for target.
@@ -712,6 +712,32 @@ talker_autogen: cmake_check_build_system
 talker_autogen/fast:
 	$(MAKE) -f template_gui_package/CMakeFiles/talker_autogen.dir/build.make template_gui_package/CMakeFiles/talker_autogen.dir/build
 .PHONY : talker_autogen/fast
+
+#=============================================================================
+# Target rules for targets named Kenict_autogen
+
+# Build rule for target.
+Kenict_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Kenict_autogen
+.PHONY : Kenict_autogen
+
+# fast build rule for target.
+Kenict_autogen/fast:
+	$(MAKE) -f template_gui_package/CMakeFiles/Kenict_autogen.dir/build.make template_gui_package/CMakeFiles/Kenict_autogen.dir/build
+.PHONY : Kenict_autogen/fast
+
+#=============================================================================
+# Target rules for targets named hello_gui_node_autogen
+
+# Build rule for target.
+hello_gui_node_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hello_gui_node_autogen
+.PHONY : hello_gui_node_autogen
+
+# fast build rule for target.
+hello_gui_node_autogen/fast:
+	$(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/build.make template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/build
+.PHONY : hello_gui_node_autogen/fast
 
 # Help Target
 help:
@@ -756,18 +782,20 @@ help:
 	@echo "... frame2"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... talker"
+	@echo "... geometry_msgs_generate_messages_eus"
+	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
+	@echo "... Kenict"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... hello_gui_node"
-	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... talker"
 	@echo "... listener_autogen"
 	@echo "... frame2_autogen"
-	@echo "... hello_gui_node_autogen"
 	@echo "... talker_autogen"
+	@echo "... Kenict_autogen"
+	@echo "... hello_gui_node_autogen"
 .PHONY : help
 
 

@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/nodes/frame2.cpp" "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/frame2.dir/nodes/frame2.cpp.o"
   "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp" "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/frame2.dir/src/hello_gui.cpp.o"
   "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow2.cpp" "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/frame2.dir/src/mainwindow2.cpp.o"
+  "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow3.cpp" "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/frame2.dir/src/mainwindow3.cpp.o"
+  "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow4.cpp" "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/frame2.dir/src/mainwindow4.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -29,9 +31,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package"
   "template_gui_package/frame2_autogen/include"
   "/opt/ros/noetic/include"
+  "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/opencv4"
   "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include"
-  "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_calib3d"
   "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_core"
   "/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_dnn"

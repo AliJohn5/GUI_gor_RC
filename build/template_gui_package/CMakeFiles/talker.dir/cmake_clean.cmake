@@ -7,11 +7,15 @@ file(REMOVE_RECURSE
   "CMakeFiles/talker.dir/nodes/talker.cpp.o"
   "CMakeFiles/talker.dir/src/hello_gui.cpp.o"
   "CMakeFiles/talker.dir/src/mainwindow2.cpp.o"
+  "CMakeFiles/talker.dir/src/mainwindow3.cpp.o"
+  "CMakeFiles/talker.dir/src/mainwindow4.cpp.o"
   "CMakeFiles/talker.dir/talker_autogen/UVLADIE3JM/qrc_res.cpp.o"
   "CMakeFiles/talker.dir/talker_autogen/mocs_compilation.cpp.o"
   "talker_autogen/UVLADIE3JM/qrc_res.cpp"
   "ui_hello_gui.h"
   "ui_mainwindow2.h"
+  "ui_mainwindow3.h"
+  "ui_mainwindow4.h"
 )
 
 # Per-language clean rules from dependency scanning.

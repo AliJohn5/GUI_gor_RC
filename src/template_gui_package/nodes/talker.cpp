@@ -1,64 +1,28 @@
-#include "ros/ros.h"
-#include "std_msgs/String.h"
-#include <opencv4/opencv2/opencv.hpp>
-#include <cv_bridge/cv_bridge.h>
-#include <sensor_msgs/Image.h>
-#include <sstream>
-#include <iostream>
+#include <ros/ros.h>
+#include <geometry_msgs/Twist.h>
 
-
-
-using namespace cv;
-using namespace std;
-
-
-int main(int argc, char **argv)
+int main(int argc, char** argv)
 {
-/*
- *
- * down camera
- *
- * */
+  // Initialize the ROS node
+  ros::init(argc, argv, "twist_publisher");
 
-  ros::init(argc, argv, "talker");
-  ros::NodeHandle n("~");
-  ros::Publisher pub = n.advertise<sensor_msgs::Image>("frame", 1);
+  // Create a ROS node handle
+  ros::NodeHandle nh;
 
-  VideoCapture cap(0);
-  if (!cap.isOpened())
-  {
-      ROS_ERROR("Failed to open camera");
-      return -1;
-  }
+  // Create a publisher for the twist message on the "/cmd_vel" topic
+  ros::Publisher twist_pub = nh.advertise<geometry_msgs::Twist>("/cmd_vel", 10);
 
-  ros::Rate loop_rate(100);
+  // Create a twist message
+  geometry_msgs::Twist twist_msg;
+  twist_msg.linear.x = 1.0; // Set the linear velocity in the x direction to 1.0 m/s
+  twist_msg.angular.z = 0.5; // Set the angular velocity around the z axis to 0.5 rad/s
+
+  // Publish the twist message at 10 Hz
+  ros::Rate rate(10);
   while (ros::ok())
   {
-     cv::Mat intrinsic_matrix = (cv::Mat_<double>(3, 3) << 526.36242209  , 0.       ,  301.72803301,
-                                                           0.,525.22844252 ,255.19490125,
-                                                           0.,0.,1.);
-      cv::Mat distortion_coeffs = (cv::Mat_<double>(1, 5) << 0.2645315 , -1.02914488 ,-0.0024316 , -0.00373515 , 1.4652433);
-      Mat frame;
-      cap >> frame;
-      if (frame.empty())
-      {
-          ROS_WARN("Received an empty frame from camera");
-          continue;
-      }
-
-      // Convert the OpenCV image to ROS message
-      //Mat mirrored_image;
-      flip(frame, frame, 1);
-
-      cv::Mat undistorted_img;
-      cv::undistort(frame, undistorted_img, intrinsic_matrix, distortion_coeffs);
-      sensor_msgs::ImagePtr msg = cv_bridge::CvImage(std_msgs::Header(), "bgr8", frame).toImageMsg();
-
-      // Publish the ROS message
-      pub.publish(msg);
-
-      ros::spinOnce();
-      loop_rate.sleep();
+    twist_pub.publish(twist_msg);
+    rate.sleep();
   }
 
   return 0;

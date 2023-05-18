@@ -7,14 +7,15 @@
 	"INCLUDE_DIR" : "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/frame2_autogen/include",
 	"INPUTS" : 
 	[
-		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/cameraicon.jpg",
-		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac2.png",
-		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/back.jpg",
-		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/arm.jpeg",
-		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac4.png",
-		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hi.png",
-		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac.jpg",
-		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac3.png"
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/cameraicon.jpg",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/download.png",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/bac2.png",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/back.jpg",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/arm.jpeg",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/bac4.png",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/hi.png",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/bac.jpg",
+		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/bac3.png"
 	],
 	"LOCK_FILE" : "/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/frame2_autogen.dir/AutoRcc_res_UVLADIE3JM_Lock.lock",
 	"MULTI_CONFIG" : false,

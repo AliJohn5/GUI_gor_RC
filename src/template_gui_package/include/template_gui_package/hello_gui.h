@@ -1,6 +1,8 @@
 #ifndef HELLO_GUI_H
 #define HELLO_GUI_H
 
+#ifndef all_lib
+#define all_lib
 #include <QMainWindow>
 #include <QtGui>
 #include <ros/ros.h>
@@ -18,45 +20,18 @@
 #include <vector>
 #include<math.h>
 #include<QLabel>
+#include "namespaceali.h"
+#endif
+
 #include "mainwindow2.h"
+#include "mainwindow3.h"
+#include "mainwindow4.h"
 
 using std::vector;
 
 using namespace cv;
 
 
-namespace  ali{
-
-
-static Mat image;
-static Mat image2;
-
-static int num_of_cols = 640;
-static int num_of_raws = 480;
-
-
-static int x_center = 0;
-static int y_center = 0;
-
-static int main_x1 = 340;
-static int main_y1 = 315;
-
-
-static int main_x2 = 307;
-static int main_y2 = 432;
-
-static bool camera_is_on = false;
-static bool camera_is_on_1 = false;
-
-static double_t dist1 = 0;
-static double_t dist2 = 0;
-
-static double_t factor2 = 0.8;
-
-
-static QLabel* lab;
-
-}
 
 using namespace ali;
 
@@ -88,13 +63,15 @@ public:
   explicit helloGui(QWidget *parent = nullptr);
   ~helloGui();
 
-
   //void callback(const sensor_msgs::Image::ConstPtr& msg);
   void imageCallback(const sensor_msgs::Image::ConstPtr& msg);
   void imageCallback1(const sensor_msgs::Image::ConstPtr& msg);
   void closeEvent(QCloseEvent *event);
   void mouseMoveEvent(QMouseEvent* event);
   MainWindow2 *second;
+  MainWindow3 *win3;
+  MainWindow4 *win4;
+  //helloGui* first;
 
   QPixmap  qim;
 
@@ -114,29 +91,29 @@ public slots:
   void spinOnce();
   void spin();
   void openSecondWindow();
+  void openwin3();
+  void openwin4();
 public slots:
     void receiveData(int data) {
         // Use the data received here
       qDebug()<<"helloGui receive: "<<data;
     }
 
+    void not_hide(bool f)
+    {
+      if(f)
+      show();
+    }
+
 
 private slots:
 
-
-  void on_pushButtonCamera_clicked();
-
-  void on_pushButton_4_clicked();
-
-  void on_pushButton_clicked();
-
-  void on_lineEdit_editingFinished();
-
-  void on_actionopen_camera_triggered();
-
-  void on_actioncamera_2_ON_OFF_triggered();
-
   void on_pushButton_7_clicked();
+
+  void on_pushButton_8_clicked();
+
+  void on_pushButton_9_clicked();
+
 
 private:
   Ui::helloGui *ui;
@@ -148,15 +125,5 @@ private:
   ros::Subscriber sub1;
 };
 
-
-/*
-class CustomLabel : public QLabel
-{
-  //Q_OBJECT
-public:
-    CustomLabel(QWidget *parent = nullptr);
-
-    void mousePressEvent(QMouseEvent *event) override;
-};*/
 
 #endif // HELLO_GUI_H

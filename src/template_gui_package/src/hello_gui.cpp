@@ -1,9 +1,15 @@
 #include "hello_gui.h"
 #include "ui_hello_gui.h"
 #include "rrtstar.h"
+#include "mainwindow2.h"
+#include "mainwindow3.h"
+#include "mainwindow4.h"
 
 static QString qstring_msg;
 using namespace cv;
+
+
+
 using namespace ali;
 
 
@@ -12,9 +18,15 @@ helloGui::helloGui(QWidget *parent) :
   ui(new Ui::helloGui)
 {
   ui->setupUi(this);
-  lab = ui->label_2;
+  //lab = ui->label_2;
+  //first = this;
   second = new MainWindow2(this);
+  win3 = new MainWindow3(this);
+  win4 = new MainWindow4(this);
   QObject::connect(second, &MainWindow2::dataToSend, this, &helloGui::receiveData);
+  QObject::connect(second, &MainWindow2::dataopen, this, &helloGui::not_hide);
+  QObject::connect(win3, &MainWindow3::dataopen, this, &helloGui::not_hide);
+  QObject::connect(win4, &MainWindow4::dataopen, this, &helloGui::not_hide);
   nhPtr.reset(new ros::NodeHandle("~"));
   nhPtr1.reset(new ros::NodeHandle("~"));
 
@@ -54,7 +66,19 @@ void helloGui::spin()
 }
 
 void helloGui::openSecondWindow() {
+  hide();
   second->show();
+}
+
+void helloGui::openwin3()
+{
+  hide();
+  win3->show();
+}
+void helloGui::openwin4()
+{
+  hide();
+  win4->show();
 }
 
 
@@ -64,7 +88,7 @@ void helloGui::openSecondWindow() {
 
 void helloGui::imageCallback(const sensor_msgs::Image::ConstPtr &msg)
 {
-  if (!camera_is_on) {ui->label->clear(); return;}
+  /*if (!camera_is_on) {ui->label->clear(); return;}
   cv_bridge::CvImagePtr k = cv_bridge::toCvCopy(msg,"bgr8");
   image = k->image;
   if (x_center && y_center)
@@ -72,12 +96,12 @@ void helloGui::imageCallback(const sensor_msgs::Image::ConstPtr &msg)
   QPixmap m = Mat_to_pixmap(image);
   int w = ui->label->width();
   int h = ui->label->height();
-  ui->label ->setPixmap( m.scaled(w,h) );
+  ui->label ->setPixmap( m.scaled(w,h) );*/
 }
 
 void helloGui::imageCallback1(const sensor_msgs::Image::ConstPtr &msg)
 {
-  if (!camera_is_on_1) {ui->frame_2_label->clear(); return;}
+  /*if (!camera_is_on_1) {ui->frame_2_label->clear(); return;}
   cv_bridge::CvImagePtr k = cv_bridge::toCvCopy(msg,"bgr8");
   image = k->image;
 //  if (x_center && y_center)
@@ -85,7 +109,7 @@ void helloGui::imageCallback1(const sensor_msgs::Image::ConstPtr &msg)
   QPixmap m = Mat_to_pixmap(image);
   int w = ui->frame_2_label->width();
   int h = ui->frame_2_label->height();
-  ui->frame_2_label ->setPixmap( m.scaled(w,h) );
+  ui->frame_2_label ->setPixmap( m.scaled(w,h) );*/
 }
 
 
@@ -150,7 +174,7 @@ void helloGui::mousePressEvent(QMouseEvent *event)
       ui->label_2->setPixmap( m.scaled(w,h) );
 
 }*/
-
+/*
 void helloGui::on_pushButtonCamera_clicked()
 {
   if (!camera_is_on)
@@ -222,149 +246,12 @@ void helloGui::on_actioncamera_2_ON_OFF_triggered()
     camera_is_on_1 = false;
   }
 }
-
-
-double_t dist_betwen_point_and_center_from_uper_camera(int x,int y)
-{
-  double_t arc_spuare = pow(abs(x - main_x1),2) + pow(abs(y - main_y1),2) ;
-  return sqrt(arc_spuare)*1.400;
-}
-
-
-double_t dist_betwen_point_and_center_from_uper_camera2(int x,int y)
-{
-  double_t arc_spuare = pow(abs(x - main_x2),2) + pow(abs(y - main_y2),2) ;
-  return sqrt(arc_spuare)* factor2;
-}
-
-
-double_t cordinate_y_betwen_camera1_and_main(int y)
-{
-  double_t dist = (y-main_y1)*1.4000;
-  return dist;
-}
-
-
-
-
-double_t cordinate_y_betwen_camera2_and_main(int y)
-{
-  double_t dist = (y-main_y2)*factor2;
-  return dist;
-}
+*/
 
 
 void closeNodes()
 {
   system("rosnode kill -a");
-}
-
-
-
-QPixmap Mat_to_pixmap(Mat src)
-{
-  QImage::Format format=QImage::Format_Grayscale8;
-  int bpp = src.channels();
-  if (bpp==3) format=QImage::Format_RGB888;
-  QImage img(src.cols,src.rows,format);
-  uchar *sptr,*dptr;
-  size_t linesize = static_cast<size_t>(src.cols*bpp);
-  for (int y=0;y<src.rows;y++) {
-    sptr=src.ptr(y);
-    dptr=img.scanLine(y);
-    memcpy(dptr,sptr,linesize);
-  }
-  if (bpp==3)return  QPixmap::fromImage(img.rgbSwapped());
-  return QPixmap::fromImage(img);
-}
-
-
-Mat detect_center_of_object(Mat img, int x ,int y)
-{
-      vector<vector<Point>> contours;
-      vector<Vec4i> hierarchy;
-      findContours(img, contours, hierarchy, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
-      // Find the contour that contains the point
-      Point point(x, y); // Change this to the point you have
-      int contourIdx = -1;
-      for (size_t i = 0; i < contours.size(); i++)
-      {
-          double dist = pointPolygonTest(contours[i], point, true);
-          if (dist >= 0)
-          {
-              contourIdx = static_cast<int>(i);
-              break;
-          }
-      }
-
-      // Find the center of the contour
-      if (contourIdx >= 0) {
-      Moments moment = moments(contours[static_cast<unsigned int>(contourIdx)]);
-      // Calculate the center of the contour
-      int cx = static_cast<int>(moment.m10 / moment.m00) ;
-      int cy = static_cast<int>(moment.m01 / moment.m00) ;
-      // Draw a circle at the center of the object
-      circle(img, Point(cx, cy), 5, Scalar(0, 0, 255), -1);
-      x_center = cx;
-      y_center = cy;
-      return img;
-      }
-      x_center = 0;
-      y_center = 0;
-      return img;
-}
-
-
-
-
-
-
-void getHSVRange(Vec3b gbr, int& minH, int& maxH, int& minS, int& maxS, int& minV, int& maxV) {
-    Mat3b color(1,1,Vec3b(gbr[0], gbr[1], gbr[2])); // convert RGB to BGR for OpenCV
-    Mat3b hsv;
-    cvtColor(color, hsv, COLOR_BGR2HSV);
-    Vec3b hsvColor = hsv(0,0);
-    int hue = hsvColor[0];
-    int saturation = hsvColor[1];
-    int value = hsvColor[2];
-
-    // Set range for hue, saturation, and value to create a mask for the color
-    int hueRange = 10;
-    int saturationRange = 50;
-    int valueRange = 50;
-
-    minH = (hue - hueRange < 0) ? 0 : hue - hueRange;
-    maxH = (hue + hueRange > 179) ? 179 : hue + hueRange;
-    minS = (saturation - saturationRange < 0) ? 0 : saturation - saturationRange;
-    maxS = (saturation + saturationRange > 255) ? 255 : saturation + saturationRange;
-    minV = (value - valueRange < 0) ? 0 : value - valueRange;
-    maxV = (value + valueRange > 255) ? 255 : value + valueRange;
-}
-
-
-Mat createMask(Mat3b img, int minH, int maxH, int minS, int maxS, int minV, int maxV) {
-    Mat3b hsv;
-    cvtColor(img, hsv, COLOR_BGR2HSV);
-
-    Mat1b mask;
-    inRange(hsv, Scalar(minH, minS, minV), Scalar(maxH, maxS, maxV), mask);
-
-    return std::move(mask);
-}
-
-
-Mat qPixmapToMat(const QPixmap& pixmap)
-{
-    // Convert the QPixmap to a QImage
-    QImage qImage = pixmap.toImage();
-
-    // Convert the QImage to a cv::Mat
-    cv::Mat mat(qImage.height(), qImage.width(), CV_8UC4, (void*)qImage.bits(), qImage.bytesPerLine());
-
-    // Convert the BGRA image to BGR
-    cv::cvtColor(mat, mat, cv::COLOR_BGRA2BGR);
-
-    return mat;
 }
 
 
@@ -395,8 +282,17 @@ void helloGui::CustomLabel::mousePressEvent(QMouseEvent *event)
   lab->setPixmap( m.scaled(w,h) );
 }
 
-
 void helloGui::on_pushButton_7_clicked()
 {
   openSecondWindow();
+}
+
+void helloGui::on_pushButton_8_clicked()
+{
+    openwin3();
+}
+
+void helloGui::on_pushButton_9_clicked()
+{
+    openwin4();
 }

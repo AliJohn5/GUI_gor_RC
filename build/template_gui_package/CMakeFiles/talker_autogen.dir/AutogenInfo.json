@@ -18,6 +18,21 @@
 			"6PKUJRDHSE/moc_mainwindow2.cpp"
 		],
 		[
+			"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow3.h",
+			"Mu",
+			"6PKUJRDHSE/moc_mainwindow3.cpp"
+		],
+		[
+			"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow4.h",
+			"Mu",
+			"6PKUJRDHSE/moc_mainwindow4.cpp"
+		],
+		[
+			"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/namespaceali.h",
+			"Mu",
+			"6PKUJRDHSE/moc_namespaceali.cpp"
+		],
+		[
 			"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/rrtstar.h",
 			"Mu",
 			"6PKUJRDHSE/moc_rrtstar.cpp"
@@ -48,9 +63,9 @@
 		"/home/alijohn/Desktop/temp_for_gui/build/template_gui_package",
 		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package",
 		"/opt/ros/noetic/include",
+		"/opt/ros/noetic/include/xmlrpcpp",
 		"/usr/include/opencv4",
 		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include",
-		"/opt/ros/noetic/include/xmlrpcpp",
 		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_calib3d",
 		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_core",
 		"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_dnn",
@@ -115,6 +130,14 @@
 		],
 		[
 			"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow2.cpp",
+			"Mu"
+		],
+		[
+			"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow3.cpp",
+			"Mu"
+		],
+		[
+			"/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow4.cpp",
 			"Mu"
 		]
 	],

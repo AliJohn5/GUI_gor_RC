@@ -483,6 +483,51 @@ std_msgs_generate_messages_py/fast:
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+template_gui_package/CMakeFiles/talker.dir/rule:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/talker.dir/rule
+.PHONY : template_gui_package/CMakeFiles/talker.dir/rule
+
+# Convenience name for target.
+talker: template_gui_package/CMakeFiles/talker.dir/rule
+
+.PHONY : talker
+
+# fast build rule for target.
+talker/fast:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/build
+.PHONY : talker/fast
+
+# Convenience name for target.
+template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+.PHONY : template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_eus: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_eus
+
+# fast build rule for target.
+geometry_msgs_generate_messages_eus/fast:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+.PHONY : geometry_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+.PHONY : template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_nodejs: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : std_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+std_msgs_generate_messages_nodejs/fast:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+.PHONY : std_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
 template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/rule
@@ -528,6 +573,21 @@ rosgraph_msgs_generate_messages_nodejs/fast:
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
+template_gui_package/CMakeFiles/Kenict.dir/rule:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/Kenict.dir/rule
+.PHONY : template_gui_package/CMakeFiles/Kenict.dir/rule
+
+# Convenience name for target.
+Kenict: template_gui_package/CMakeFiles/Kenict.dir/rule
+
+.PHONY : Kenict
+
+# fast build rule for target.
+Kenict/fast:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/build
+.PHONY : Kenict/fast
+
+# Convenience name for target.
 template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
@@ -556,51 +616,6 @@ hello_gui_node: template_gui_package/CMakeFiles/hello_gui_node.dir/rule
 hello_gui_node/fast:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/build
 .PHONY : hello_gui_node/fast
-
-# Convenience name for target.
-template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-.PHONY : template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_eus: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_eus
-
-# fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-.PHONY : template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-template_gui_package/CMakeFiles/talker.dir/rule:
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/talker.dir/rule
-.PHONY : template_gui_package/CMakeFiles/talker.dir/rule
-
-# Convenience name for target.
-talker: template_gui_package/CMakeFiles/talker.dir/rule
-
-.PHONY : talker
-
-# fast build rule for target.
-talker/fast:
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/build
-.PHONY : talker/fast
 
 # Convenience name for target.
 template_gui_package/CMakeFiles/listener_autogen.dir/rule:
@@ -633,6 +648,36 @@ frame2_autogen/fast:
 .PHONY : frame2_autogen/fast
 
 # Convenience name for target.
+template_gui_package/CMakeFiles/talker_autogen.dir/rule:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/talker_autogen.dir/rule
+.PHONY : template_gui_package/CMakeFiles/talker_autogen.dir/rule
+
+# Convenience name for target.
+talker_autogen: template_gui_package/CMakeFiles/talker_autogen.dir/rule
+
+.PHONY : talker_autogen
+
+# fast build rule for target.
+talker_autogen/fast:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker_autogen.dir/build.make template_gui_package/CMakeFiles/talker_autogen.dir/build
+.PHONY : talker_autogen/fast
+
+# Convenience name for target.
+template_gui_package/CMakeFiles/Kenict_autogen.dir/rule:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/Kenict_autogen.dir/rule
+.PHONY : template_gui_package/CMakeFiles/Kenict_autogen.dir/rule
+
+# Convenience name for target.
+Kenict_autogen: template_gui_package/CMakeFiles/Kenict_autogen.dir/rule
+
+.PHONY : Kenict_autogen
+
+# fast build rule for target.
+Kenict_autogen/fast:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict_autogen.dir/build.make template_gui_package/CMakeFiles/Kenict_autogen.dir/build
+.PHONY : Kenict_autogen/fast
+
+# Convenience name for target.
 template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/rule:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/rule
 .PHONY : template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/rule
@@ -647,20 +692,59 @@ hello_gui_node_autogen/fast:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/build.make template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/build
 .PHONY : hello_gui_node_autogen/fast
 
-# Convenience name for target.
-template_gui_package/CMakeFiles/talker_autogen.dir/rule:
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/talker_autogen.dir/rule
-.PHONY : template_gui_package/CMakeFiles/talker_autogen.dir/rule
+Kenict_autogen/UVLADIE3JM/qrc_res.o: Kenict_autogen/UVLADIE3JM/qrc_res.cpp.o
 
-# Convenience name for target.
-talker_autogen: template_gui_package/CMakeFiles/talker_autogen.dir/rule
+.PHONY : Kenict_autogen/UVLADIE3JM/qrc_res.o
 
-.PHONY : talker_autogen
+# target to build an object file
+Kenict_autogen/UVLADIE3JM/qrc_res.cpp.o:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/Kenict_autogen/UVLADIE3JM/qrc_res.cpp.o
+.PHONY : Kenict_autogen/UVLADIE3JM/qrc_res.cpp.o
 
-# fast build rule for target.
-talker_autogen/fast:
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker_autogen.dir/build.make template_gui_package/CMakeFiles/talker_autogen.dir/build
-.PHONY : talker_autogen/fast
+Kenict_autogen/UVLADIE3JM/qrc_res.i: Kenict_autogen/UVLADIE3JM/qrc_res.cpp.i
+
+.PHONY : Kenict_autogen/UVLADIE3JM/qrc_res.i
+
+# target to preprocess a source file
+Kenict_autogen/UVLADIE3JM/qrc_res.cpp.i:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/Kenict_autogen/UVLADIE3JM/qrc_res.cpp.i
+.PHONY : Kenict_autogen/UVLADIE3JM/qrc_res.cpp.i
+
+Kenict_autogen/UVLADIE3JM/qrc_res.s: Kenict_autogen/UVLADIE3JM/qrc_res.cpp.s
+
+.PHONY : Kenict_autogen/UVLADIE3JM/qrc_res.s
+
+# target to generate assembly for a file
+Kenict_autogen/UVLADIE3JM/qrc_res.cpp.s:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/Kenict_autogen/UVLADIE3JM/qrc_res.cpp.s
+.PHONY : Kenict_autogen/UVLADIE3JM/qrc_res.cpp.s
+
+Kenict_autogen/mocs_compilation.o: Kenict_autogen/mocs_compilation.cpp.o
+
+.PHONY : Kenict_autogen/mocs_compilation.o
+
+# target to build an object file
+Kenict_autogen/mocs_compilation.cpp.o:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/Kenict_autogen/mocs_compilation.cpp.o
+.PHONY : Kenict_autogen/mocs_compilation.cpp.o
+
+Kenict_autogen/mocs_compilation.i: Kenict_autogen/mocs_compilation.cpp.i
+
+.PHONY : Kenict_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Kenict_autogen/mocs_compilation.cpp.i:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/Kenict_autogen/mocs_compilation.cpp.i
+.PHONY : Kenict_autogen/mocs_compilation.cpp.i
+
+Kenict_autogen/mocs_compilation.s: Kenict_autogen/mocs_compilation.cpp.s
+
+.PHONY : Kenict_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Kenict_autogen/mocs_compilation.cpp.s:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/Kenict_autogen/mocs_compilation.cpp.s
+.PHONY : Kenict_autogen/mocs_compilation.cpp.s
 
 frame2_autogen/UVLADIE3JM/qrc_res.o: frame2_autogen/UVLADIE3JM/qrc_res.cpp.o
 
@@ -824,6 +908,33 @@ listener_autogen/mocs_compilation.cpp.s:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/listener_autogen/mocs_compilation.cpp.s
 .PHONY : listener_autogen/mocs_compilation.cpp.s
 
+nodes/Kenict.o: nodes/Kenict.cpp.o
+
+.PHONY : nodes/Kenict.o
+
+# target to build an object file
+nodes/Kenict.cpp.o:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/nodes/Kenict.cpp.o
+.PHONY : nodes/Kenict.cpp.o
+
+nodes/Kenict.i: nodes/Kenict.cpp.i
+
+.PHONY : nodes/Kenict.i
+
+# target to preprocess a source file
+nodes/Kenict.cpp.i:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/nodes/Kenict.cpp.i
+.PHONY : nodes/Kenict.cpp.i
+
+nodes/Kenict.s: nodes/Kenict.cpp.s
+
+.PHONY : nodes/Kenict.s
+
+# target to generate assembly for a file
+nodes/Kenict.cpp.s:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/nodes/Kenict.cpp.s
+.PHONY : nodes/Kenict.cpp.s
+
 nodes/frame2.o: nodes/frame2.cpp.o
 
 .PHONY : nodes/frame2.o
@@ -940,8 +1051,9 @@ src/hello_gui.o: src/hello_gui.cpp.o
 src/hello_gui.cpp.o:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.o
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/hello_gui.cpp.o
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.o
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/src/hello_gui.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.o
 .PHONY : src/hello_gui.cpp.o
 
 src/hello_gui.i: src/hello_gui.cpp.i
@@ -952,8 +1064,9 @@ src/hello_gui.i: src/hello_gui.cpp.i
 src/hello_gui.cpp.i:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.i
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/hello_gui.cpp.i
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.i
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/src/hello_gui.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.i
 .PHONY : src/hello_gui.cpp.i
 
 src/hello_gui.s: src/hello_gui.cpp.s
@@ -964,8 +1077,9 @@ src/hello_gui.s: src/hello_gui.cpp.s
 src/hello_gui.cpp.s:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/hello_gui.cpp.s
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/hello_gui.cpp.s
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.s
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/hello_gui.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/src/hello_gui.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/hello_gui.cpp.s
 .PHONY : src/hello_gui.cpp.s
 
 src/mainwindow2.o: src/mainwindow2.cpp.o
@@ -976,8 +1090,9 @@ src/mainwindow2.o: src/mainwindow2.cpp.o
 src/mainwindow2.cpp.o:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/mainwindow2.cpp.o
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/mainwindow2.cpp.o
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.o
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/mainwindow2.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/src/mainwindow2.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.o
 .PHONY : src/mainwindow2.cpp.o
 
 src/mainwindow2.i: src/mainwindow2.cpp.i
@@ -988,8 +1103,9 @@ src/mainwindow2.i: src/mainwindow2.cpp.i
 src/mainwindow2.cpp.i:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/mainwindow2.cpp.i
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/mainwindow2.cpp.i
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.i
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/mainwindow2.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/src/mainwindow2.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.i
 .PHONY : src/mainwindow2.cpp.i
 
 src/mainwindow2.s: src/mainwindow2.cpp.s
@@ -1000,9 +1116,88 @@ src/mainwindow2.s: src/mainwindow2.cpp.s
 src/mainwindow2.cpp.s:
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/mainwindow2.cpp.s
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/mainwindow2.cpp.s
-	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.s
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/mainwindow2.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/src/mainwindow2.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow2.cpp.s
 .PHONY : src/mainwindow2.cpp.s
+
+src/mainwindow3.o: src/mainwindow3.cpp.o
+
+.PHONY : src/mainwindow3.o
+
+# target to build an object file
+src/mainwindow3.cpp.o:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/mainwindow3.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/mainwindow3.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/mainwindow3.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/src/mainwindow3.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow3.cpp.o
+.PHONY : src/mainwindow3.cpp.o
+
+src/mainwindow3.i: src/mainwindow3.cpp.i
+
+.PHONY : src/mainwindow3.i
+
+# target to preprocess a source file
+src/mainwindow3.cpp.i:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/mainwindow3.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/mainwindow3.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/mainwindow3.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/src/mainwindow3.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow3.cpp.i
+.PHONY : src/mainwindow3.cpp.i
+
+src/mainwindow3.s: src/mainwindow3.cpp.s
+
+.PHONY : src/mainwindow3.s
+
+# target to generate assembly for a file
+src/mainwindow3.cpp.s:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/mainwindow3.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/mainwindow3.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/mainwindow3.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/src/mainwindow3.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow3.cpp.s
+.PHONY : src/mainwindow3.cpp.s
+
+src/mainwindow4.o: src/mainwindow4.cpp.o
+
+.PHONY : src/mainwindow4.o
+
+# target to build an object file
+src/mainwindow4.cpp.o:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/mainwindow4.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/mainwindow4.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/mainwindow4.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/src/mainwindow4.cpp.o
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow4.cpp.o
+.PHONY : src/mainwindow4.cpp.o
+
+src/mainwindow4.i: src/mainwindow4.cpp.i
+
+.PHONY : src/mainwindow4.i
+
+# target to preprocess a source file
+src/mainwindow4.cpp.i:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/mainwindow4.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/mainwindow4.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/mainwindow4.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/src/mainwindow4.cpp.i
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow4.cpp.i
+.PHONY : src/mainwindow4.cpp.i
+
+src/mainwindow4.s: src/mainwindow4.cpp.s
+
+.PHONY : src/mainwindow4.s
+
+# target to generate assembly for a file
+src/mainwindow4.cpp.s:
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/src/mainwindow4.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/src/mainwindow4.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/src/mainwindow4.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/src/mainwindow4.cpp.s
+	cd /home/alijohn/Desktop/temp_for_gui/build && $(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/src/mainwindow4.cpp.s
+.PHONY : src/mainwindow4.cpp.s
 
 talker_autogen/UVLADIE3JM/qrc_res.o: talker_autogen/UVLADIE3JM/qrc_res.cpp.o
 
@@ -1090,20 +1285,28 @@ help:
 	@echo "... frame2"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... talker"
+	@echo "... geometry_msgs_generate_messages_eus"
+	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... rebuild_cache"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... install/local"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
+	@echo "... Kenict"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... hello_gui_node"
-	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... talker"
 	@echo "... listener_autogen"
 	@echo "... frame2_autogen"
-	@echo "... hello_gui_node_autogen"
 	@echo "... talker_autogen"
+	@echo "... Kenict_autogen"
+	@echo "... hello_gui_node_autogen"
+	@echo "... Kenict_autogen/UVLADIE3JM/qrc_res.o"
+	@echo "... Kenict_autogen/UVLADIE3JM/qrc_res.i"
+	@echo "... Kenict_autogen/UVLADIE3JM/qrc_res.s"
+	@echo "... Kenict_autogen/mocs_compilation.o"
+	@echo "... Kenict_autogen/mocs_compilation.i"
+	@echo "... Kenict_autogen/mocs_compilation.s"
 	@echo "... frame2_autogen/UVLADIE3JM/qrc_res.o"
 	@echo "... frame2_autogen/UVLADIE3JM/qrc_res.i"
 	@echo "... frame2_autogen/UVLADIE3JM/qrc_res.s"
@@ -1122,6 +1325,9 @@ help:
 	@echo "... listener_autogen/mocs_compilation.o"
 	@echo "... listener_autogen/mocs_compilation.i"
 	@echo "... listener_autogen/mocs_compilation.s"
+	@echo "... nodes/Kenict.o"
+	@echo "... nodes/Kenict.i"
+	@echo "... nodes/Kenict.s"
 	@echo "... nodes/frame2.o"
 	@echo "... nodes/frame2.i"
 	@echo "... nodes/frame2.s"
@@ -1140,6 +1346,12 @@ help:
 	@echo "... src/mainwindow2.o"
 	@echo "... src/mainwindow2.i"
 	@echo "... src/mainwindow2.s"
+	@echo "... src/mainwindow3.o"
+	@echo "... src/mainwindow3.i"
+	@echo "... src/mainwindow3.s"
+	@echo "... src/mainwindow4.o"
+	@echo "... src/mainwindow4.i"
+	@echo "... src/mainwindow4.s"
 	@echo "... talker_autogen/UVLADIE3JM/qrc_res.o"
 	@echo "... talker_autogen/UVLADIE3JM/qrc_res.i"
 	@echo "... talker_autogen/UVLADIE3JM/qrc_res.s"

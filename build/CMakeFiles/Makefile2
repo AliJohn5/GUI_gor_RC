@@ -138,8 +138,9 @@ gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest.dir/clean
 # Recursive "all" directory target.
 template_gui_package/all: template_gui_package/CMakeFiles/listener.dir/all
 template_gui_package/all: template_gui_package/CMakeFiles/frame2.dir/all
-template_gui_package/all: template_gui_package/CMakeFiles/hello_gui_node.dir/all
 template_gui_package/all: template_gui_package/CMakeFiles/talker.dir/all
+template_gui_package/all: template_gui_package/CMakeFiles/Kenict.dir/all
+template_gui_package/all: template_gui_package/CMakeFiles/hello_gui_node.dir/all
 
 .PHONY : template_gui_package/all
 
@@ -170,18 +171,20 @@ template_gui_package/clean: template_gui_package/CMakeFiles/std_msgs_generate_me
 template_gui_package/clean: template_gui_package/CMakeFiles/frame2.dir/clean
 template_gui_package/clean: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 template_gui_package/clean: template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+template_gui_package/clean: template_gui_package/CMakeFiles/talker.dir/clean
+template_gui_package/clean: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+template_gui_package/clean: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 template_gui_package/clean: template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 template_gui_package/clean: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 template_gui_package/clean: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
+template_gui_package/clean: template_gui_package/CMakeFiles/Kenict.dir/clean
 template_gui_package/clean: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 template_gui_package/clean: template_gui_package/CMakeFiles/hello_gui_node.dir/clean
-template_gui_package/clean: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-template_gui_package/clean: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-template_gui_package/clean: template_gui_package/CMakeFiles/talker.dir/clean
 template_gui_package/clean: template_gui_package/CMakeFiles/listener_autogen.dir/clean
 template_gui_package/clean: template_gui_package/CMakeFiles/frame2_autogen.dir/clean
-template_gui_package/clean: template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/clean
 template_gui_package/clean: template_gui_package/CMakeFiles/talker_autogen.dir/clean
+template_gui_package/clean: template_gui_package/CMakeFiles/Kenict_autogen.dir/clean
+template_gui_package/clean: template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/clean
 
 .PHONY : template_gui_package/clean
 
@@ -328,7 +331,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmoc
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=13,14 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=31,32 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -355,7 +358,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=11,12 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=29,30 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -382,7 +385,7 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googletest/CMakeFiles/gtest_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=17,18 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=35,36 "Built target gtest_main"
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -409,7 +412,7 @@ gtest/googletest/CMakeFiles/gtest_main.dir/clean:
 gtest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=15,16 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=33,34 "Built target gtest"
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -479,21 +482,21 @@ template_gui_package/CMakeFiles/listener.dir/all: template_gui_package/CMakeFile
 template_gui_package/CMakeFiles/listener.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 template_gui_package/CMakeFiles/listener.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 template_gui_package/CMakeFiles/listener.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/listener.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/listener.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/listener.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/all
 template_gui_package/CMakeFiles/listener.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 template_gui_package/CMakeFiles/listener.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/listener.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/listener.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/listener.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/listener.dir/all: template_gui_package/CMakeFiles/listener_autogen.dir/all
 	$(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/depend
 	$(MAKE) -f template_gui_package/CMakeFiles/listener.dir/build.make template_gui_package/CMakeFiles/listener.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37 "Built target listener"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=51,52,53,54,55,56,57,58,59,60,61,62,63 "Built target listener"
 .PHONY : template_gui_package/CMakeFiles/listener.dir/all
 
 # Build rule for subdir invocation for target.
 template_gui_package/CMakeFiles/listener.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/listener.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
 .PHONY : template_gui_package/CMakeFiles/listener.dir/rule
@@ -963,21 +966,21 @@ template_gui_package/CMakeFiles/frame2.dir/all: template_gui_package/CMakeFiles/
 template_gui_package/CMakeFiles/frame2.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 template_gui_package/CMakeFiles/frame2.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 template_gui_package/CMakeFiles/frame2.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/frame2.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/frame2.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/frame2.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/all
 template_gui_package/CMakeFiles/frame2.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 template_gui_package/CMakeFiles/frame2.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/frame2.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/frame2.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/frame2.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/frame2.dir/all: template_gui_package/CMakeFiles/frame2_autogen.dir/all
 	$(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/depend
 	$(MAKE) -f template_gui_package/CMakeFiles/frame2.dir/build.make template_gui_package/CMakeFiles/frame2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target frame2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target frame2"
 .PHONY : template_gui_package/CMakeFiles/frame2.dir/all
 
 # Build rule for subdir invocation for target.
 template_gui_package/CMakeFiles/frame2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/frame2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
 .PHONY : template_gui_package/CMakeFiles/frame2.dir/rule
@@ -1045,6 +1048,112 @@ std_msgs_generate_messages_py: template_gui_package/CMakeFiles/std_msgs_generate
 template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 	$(MAKE) -f template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/build.make template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 .PHONY : template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+#=============================================================================
+# Target rules for target template_gui_package/CMakeFiles/talker.dir
+
+# All Build rule for target.
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/talker_autogen.dir/all
+	$(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/depend
+	$(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=65,66,67,68,69,70,71,72,73,74,75,76,77 "Built target talker"
+.PHONY : template_gui_package/CMakeFiles/talker.dir/all
+
+# Build rule for subdir invocation for target.
+template_gui_package/CMakeFiles/talker.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 14
+	$(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/talker.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
+.PHONY : template_gui_package/CMakeFiles/talker.dir/rule
+
+# Convenience name for target.
+talker: template_gui_package/CMakeFiles/talker.dir/rule
+
+.PHONY : talker
+
+# clean rule for target.
+template_gui_package/CMakeFiles/talker.dir/clean:
+	$(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/clean
+.PHONY : template_gui_package/CMakeFiles/talker.dir/clean
+
+#=============================================================================
+# Target rules for target template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+
+# All Build rule for target.
+template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
+	$(MAKE) -f template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+	$(MAKE) -f template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
+.PHONY : template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
+.PHONY : template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_eus: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_eus
+
+# clean rule for target.
+template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
+	$(MAKE) -f template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+.PHONY : template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
+
+#=============================================================================
+# Target rules for target template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+.PHONY : template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
+.PHONY : template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_nodejs: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : std_msgs_generate_messages_nodejs
+
+# clean rule for target.
+template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
+.PHONY : template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 #=============================================================================
 # Target rules for target template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir
@@ -1128,6 +1237,58 @@ template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 .PHONY : template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 #=============================================================================
+# Target rules for target template_gui_package/CMakeFiles/Kenict.dir
+
+# All Build rule for target.
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/Kenict.dir/all: template_gui_package/CMakeFiles/Kenict_autogen.dir/all
+	$(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/depend
+	$(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target Kenict"
+.PHONY : template_gui_package/CMakeFiles/Kenict.dir/all
+
+# Build rule for subdir invocation for target.
+template_gui_package/CMakeFiles/Kenict.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 14
+	$(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/Kenict.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
+.PHONY : template_gui_package/CMakeFiles/Kenict.dir/rule
+
+# Convenience name for target.
+Kenict: template_gui_package/CMakeFiles/Kenict.dir/rule
+
+.PHONY : Kenict
+
+# clean rule for target.
+template_gui_package/CMakeFiles/Kenict.dir/clean:
+	$(MAKE) -f template_gui_package/CMakeFiles/Kenict.dir/build.make template_gui_package/CMakeFiles/Kenict.dir/clean
+.PHONY : template_gui_package/CMakeFiles/Kenict.dir/clean
+
+#=============================================================================
 # Target rules for target template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
@@ -1177,21 +1338,21 @@ template_gui_package/CMakeFiles/hello_gui_node.dir/all: template_gui_package/CMa
 template_gui_package/CMakeFiles/hello_gui_node.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 template_gui_package/CMakeFiles/hello_gui_node.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 template_gui_package/CMakeFiles/hello_gui_node.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/hello_gui_node.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/hello_gui_node.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/hello_gui_node.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/all
 template_gui_package/CMakeFiles/hello_gui_node.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 template_gui_package/CMakeFiles/hello_gui_node.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/hello_gui_node.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/hello_gui_node.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/hello_gui_node.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/hello_gui_node.dir/all: template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all
 	$(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/depend
 	$(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=19,20,21,22,23,24,25,26,27 "Built target hello_gui_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target hello_gui_node"
 .PHONY : template_gui_package/CMakeFiles/hello_gui_node.dir/all
 
 # Build rule for subdir invocation for target.
 template_gui_package/CMakeFiles/hello_gui_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/hello_gui_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
 .PHONY : template_gui_package/CMakeFiles/hello_gui_node.dir/rule
@@ -1205,112 +1366,6 @@ hello_gui_node: template_gui_package/CMakeFiles/hello_gui_node.dir/rule
 template_gui_package/CMakeFiles/hello_gui_node.dir/clean:
 	$(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node.dir/build.make template_gui_package/CMakeFiles/hello_gui_node.dir/clean
 .PHONY : template_gui_package/CMakeFiles/hello_gui_node.dir/clean
-
-#=============================================================================
-# Target rules for target template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir
-
-# All Build rule for target.
-template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
-	$(MAKE) -f template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
-	$(MAKE) -f template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
-.PHONY : template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-
-# Build rule for subdir invocation for target.
-template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
-.PHONY : template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_eus: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_eus
-
-# clean rule for target.
-template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
-	$(MAKE) -f template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-.PHONY : template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
-
-#=============================================================================
-# Target rules for target template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir
-
-# All Build rule for target.
-template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
-	$(MAKE) -f template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
-	$(MAKE) -f template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
-.PHONY : template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-
-# Build rule for subdir invocation for target.
-template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
-.PHONY : template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_msgs_generate_messages_nodejs
-
-# clean rule for target.
-template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	$(MAKE) -f template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-.PHONY : template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
-
-#=============================================================================
-# Target rules for target template_gui_package/CMakeFiles/talker.dir
-
-# All Build rule for target.
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_py.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-template_gui_package/CMakeFiles/talker.dir/all: template_gui_package/CMakeFiles/talker_autogen.dir/all
-	$(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/depend
-	$(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=39,40,41,42,43,44,45,46,47 "Built target talker"
-.PHONY : template_gui_package/CMakeFiles/talker.dir/all
-
-# Build rule for subdir invocation for target.
-template_gui_package/CMakeFiles/talker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 10
-	$(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/talker.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
-.PHONY : template_gui_package/CMakeFiles/talker.dir/rule
-
-# Convenience name for target.
-talker: template_gui_package/CMakeFiles/talker.dir/rule
-
-.PHONY : talker
-
-# clean rule for target.
-template_gui_package/CMakeFiles/talker.dir/clean:
-	$(MAKE) -f template_gui_package/CMakeFiles/talker.dir/build.make template_gui_package/CMakeFiles/talker.dir/clean
-.PHONY : template_gui_package/CMakeFiles/talker.dir/clean
 
 #=============================================================================
 # Target rules for target template_gui_package/CMakeFiles/listener_autogen.dir
@@ -1335,15 +1390,15 @@ template_gui_package/CMakeFiles/listener_autogen.dir/all: template_gui_package/C
 template_gui_package/CMakeFiles/listener_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 template_gui_package/CMakeFiles/listener_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 template_gui_package/CMakeFiles/listener_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/listener_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/listener_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/listener_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/all
 template_gui_package/CMakeFiles/listener_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 template_gui_package/CMakeFiles/listener_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/listener_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/listener_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/listener_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f template_gui_package/CMakeFiles/listener_autogen.dir/build.make template_gui_package/CMakeFiles/listener_autogen.dir/depend
 	$(MAKE) -f template_gui_package/CMakeFiles/listener_autogen.dir/build.make template_gui_package/CMakeFiles/listener_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=38 "Built target listener_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=64 "Built target listener_autogen"
 .PHONY : template_gui_package/CMakeFiles/listener_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1386,15 +1441,15 @@ template_gui_package/CMakeFiles/frame2_autogen.dir/all: template_gui_package/CMa
 template_gui_package/CMakeFiles/frame2_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 template_gui_package/CMakeFiles/frame2_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 template_gui_package/CMakeFiles/frame2_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/frame2_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/frame2_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/frame2_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/all
 template_gui_package/CMakeFiles/frame2_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 template_gui_package/CMakeFiles/frame2_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/frame2_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/frame2_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/frame2_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f template_gui_package/CMakeFiles/frame2_autogen.dir/build.make template_gui_package/CMakeFiles/frame2_autogen.dir/depend
 	$(MAKE) -f template_gui_package/CMakeFiles/frame2_autogen.dir/build.make template_gui_package/CMakeFiles/frame2_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=10 "Built target frame2_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=28 "Built target frame2_autogen"
 .PHONY : template_gui_package/CMakeFiles/frame2_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1413,57 +1468,6 @@ frame2_autogen: template_gui_package/CMakeFiles/frame2_autogen.dir/rule
 template_gui_package/CMakeFiles/frame2_autogen.dir/clean:
 	$(MAKE) -f template_gui_package/CMakeFiles/frame2_autogen.dir/build.make template_gui_package/CMakeFiles/frame2_autogen.dir/clean
 .PHONY : template_gui_package/CMakeFiles/frame2_autogen.dir/clean
-
-#=============================================================================
-# Target rules for target template_gui_package/CMakeFiles/hello_gui_node_autogen.dir
-
-# All Build rule for target.
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_py.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/build.make template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/depend
-	$(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/build.make template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=28 "Built target hello_gui_node_autogen"
-.PHONY : template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all
-
-# Build rule for subdir invocation for target.
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
-.PHONY : template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/rule
-
-# Convenience name for target.
-hello_gui_node_autogen: template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/rule
-
-.PHONY : hello_gui_node_autogen
-
-# clean rule for target.
-template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/clean:
-	$(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/build.make template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/clean
-.PHONY : template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/clean
 
 #=============================================================================
 # Target rules for target template_gui_package/CMakeFiles/talker_autogen.dir
@@ -1488,15 +1492,15 @@ template_gui_package/CMakeFiles/talker_autogen.dir/all: template_gui_package/CMa
 template_gui_package/CMakeFiles/talker_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 template_gui_package/CMakeFiles/talker_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 template_gui_package/CMakeFiles/talker_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/talker_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/talker_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/talker_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/all
 template_gui_package/CMakeFiles/talker_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 template_gui_package/CMakeFiles/talker_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 template_gui_package/CMakeFiles/talker_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-template_gui_package/CMakeFiles/talker_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-template_gui_package/CMakeFiles/talker_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f template_gui_package/CMakeFiles/talker_autogen.dir/build.make template_gui_package/CMakeFiles/talker_autogen.dir/depend
 	$(MAKE) -f template_gui_package/CMakeFiles/talker_autogen.dir/build.make template_gui_package/CMakeFiles/talker_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=48 "Built target talker_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=78 "Built target talker_autogen"
 .PHONY : template_gui_package/CMakeFiles/talker_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1515,6 +1519,108 @@ talker_autogen: template_gui_package/CMakeFiles/talker_autogen.dir/rule
 template_gui_package/CMakeFiles/talker_autogen.dir/clean:
 	$(MAKE) -f template_gui_package/CMakeFiles/talker_autogen.dir/build.make template_gui_package/CMakeFiles/talker_autogen.dir/clean
 .PHONY : template_gui_package/CMakeFiles/talker_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target template_gui_package/CMakeFiles/Kenict_autogen.dir
+
+# All Build rule for target.
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/Kenict_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f template_gui_package/CMakeFiles/Kenict_autogen.dir/build.make template_gui_package/CMakeFiles/Kenict_autogen.dir/depend
+	$(MAKE) -f template_gui_package/CMakeFiles/Kenict_autogen.dir/build.make template_gui_package/CMakeFiles/Kenict_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=14 "Built target Kenict_autogen"
+.PHONY : template_gui_package/CMakeFiles/Kenict_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+template_gui_package/CMakeFiles/Kenict_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/Kenict_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
+.PHONY : template_gui_package/CMakeFiles/Kenict_autogen.dir/rule
+
+# Convenience name for target.
+Kenict_autogen: template_gui_package/CMakeFiles/Kenict_autogen.dir/rule
+
+.PHONY : Kenict_autogen
+
+# clean rule for target.
+template_gui_package/CMakeFiles/Kenict_autogen.dir/clean:
+	$(MAKE) -f template_gui_package/CMakeFiles/Kenict_autogen.dir/build.make template_gui_package/CMakeFiles/Kenict_autogen.dir/clean
+.PHONY : template_gui_package/CMakeFiles/Kenict_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target template_gui_package/CMakeFiles/hello_gui_node_autogen.dir
+
+# All Build rule for target.
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_py.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/roscpp_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all: template_gui_package/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/build.make template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/depend
+	$(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/build.make template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=50 "Built target hello_gui_node_autogen"
+.PHONY : template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alijohn/Desktop/temp_for_gui/build/CMakeFiles 0
+.PHONY : template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/rule
+
+# Convenience name for target.
+hello_gui_node_autogen: template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/rule
+
+.PHONY : hello_gui_node_autogen
+
+# clean rule for target.
+template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/clean:
+	$(MAKE) -f template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/build.make template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/clean
+.PHONY : template_gui_package/CMakeFiles/hello_gui_node_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

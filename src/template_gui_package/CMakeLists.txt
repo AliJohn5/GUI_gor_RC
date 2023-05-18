@@ -35,17 +35,22 @@ project(template_gui_package)  ## this package name is the name of the directory
 find_package(OpenCV REQUIRED)
 find_package(catkin REQUIRED COMPONENTS
   cv_bridge
+  image_transport
 )
+find_package(libfreenect REQUIRED COMPONENTS)
 
 set(ROS_DEPENDS
   roscpp
   std_msgs
   sensor_msgs
   cv_bridge
+  image_transport
+ # libfreenect
   )
 
 include_directories(
   ${catkin_INCLUDE_DIRS}
+  ${LIBFREENECT_INCLUDE_DIRS}
 )
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
@@ -57,6 +62,8 @@ set(EXTERNAL_DEPENDS
   Qt5PrintSupport
   OpenCV
   cv_bridge
+  image_transport
+  libfreenect
   )
 
 set(EXTERNAL_DEPENDS_LIB
@@ -64,10 +71,14 @@ set(EXTERNAL_DEPENDS_LIB
   Qt5::PrintSupport
   Qt5::Core
   ${OpenCV_LIBS}
+  ${libfreenect_LIBS}
+  ${LIBFREENECT_INCLUDE_DIRS}
   )
 
 set(INCLUDE_DIRECTORIES
   ${OpenCV_LIBS}
+  ${libfreenect_LIBS}
+  ${LIBFREENECT_INCLUDE_DIRS}
   )
 
 
@@ -115,6 +126,7 @@ include_directories(
 include_directories(
  include
   ${OpenCV_INCLUDE_DIRS}
+  ${libfreenect_INCLUDE_DIRS}
 )
 
 
@@ -175,7 +187,7 @@ foreach(NODE_FILE ${NODES})
 
   add_executable(${NODE_NAME} ${NODE_FILE} ${HDRS} ${SRCS} ${UI} ${QRC})
   add_dependencies(${NODE_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-  target_link_libraries (${NODE_NAME} ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${EXTERNAL_DEPENDS_LIB})
+  target_link_libraries (${NODE_NAME} ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${FREENECT_LIBRARIES} ${LIBFREENECT_LIBRARIES} ${EXTERNAL_DEPENDS_LIB})
   target_include_directories(${NODE_NAME} PRIVATE "include/${PROJECT_NAME}/")
 
   list(APPEND NODE_LIST ${NODE_NAME})

@@ -65,23 +65,32 @@ template_gui_package/ui_mainwindow2.h: /home/alijohn/Desktop/temp_for_gui/src/te
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_mainwindow2.h"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/lib/qt5/bin/uic -o /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/ui_mainwindow2.h /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow2.ui
 
+template_gui_package/ui_mainwindow3.h: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow3.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_mainwindow3.h"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/lib/qt5/bin/uic -o /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/ui_mainwindow3.h /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow3.ui
+
+template_gui_package/ui_mainwindow4.h: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow4.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_mainwindow4.h"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/lib/qt5/bin/uic -o /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/ui_mainwindow4.h /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow4.ui
+
 template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/res.qrc
 template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: template_gui_package/CMakeFiles/frame2_autogen.dir/AutoRcc_res_UVLADIE3JM_Info.json
-template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/cameraicon.jpg
-template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac2.png
-template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/back.jpg
-template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/arm.jpeg
-template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac4.png
-template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hi.png
-template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac.jpg
-template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/bac3.png
+template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/cameraicon.jpg
+template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/download.png
+template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/bac2.png
+template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/back.jpg
+template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/arm.jpeg
+template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/bac4.png
+template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/hi.png
+template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/bac.jpg
+template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/img/bac3.png
 template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp: /usr/lib/qt5/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Automatic RCC for src/res.qrc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Automatic RCC for src/res.qrc"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/cmake -E cmake_autorcc /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/frame2_autogen.dir/AutoRcc_res_UVLADIE3JM_Info.json Debug
 
 template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/mocs_compilation.cpp.o: template_gui_package/CMakeFiles/frame2.dir/flags.make
 template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/mocs_compilation.cpp.o: template_gui_package/frame2_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/mocs_compilation.cpp.o"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/frame2.dir/frame2_autogen/mocs_compilation.cpp.o -c /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/frame2_autogen/mocs_compilation.cpp
 
 template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/mocs_compilation.cpp.i: cmake_force
@@ -94,7 +103,7 @@ template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/mocs_compilation.cpp.s
 
 template_gui_package/CMakeFiles/frame2.dir/nodes/frame2.cpp.o: template_gui_package/CMakeFiles/frame2.dir/flags.make
 template_gui_package/CMakeFiles/frame2.dir/nodes/frame2.cpp.o: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/nodes/frame2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object template_gui_package/CMakeFiles/frame2.dir/nodes/frame2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object template_gui_package/CMakeFiles/frame2.dir/nodes/frame2.cpp.o"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/frame2.dir/nodes/frame2.cpp.o -c /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/nodes/frame2.cpp
 
 template_gui_package/CMakeFiles/frame2.dir/nodes/frame2.cpp.i: cmake_force
@@ -107,7 +116,7 @@ template_gui_package/CMakeFiles/frame2.dir/nodes/frame2.cpp.s: cmake_force
 
 template_gui_package/CMakeFiles/frame2.dir/src/hello_gui.cpp.o: template_gui_package/CMakeFiles/frame2.dir/flags.make
 template_gui_package/CMakeFiles/frame2.dir/src/hello_gui.cpp.o: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object template_gui_package/CMakeFiles/frame2.dir/src/hello_gui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object template_gui_package/CMakeFiles/frame2.dir/src/hello_gui.cpp.o"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/frame2.dir/src/hello_gui.cpp.o -c /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp
 
 template_gui_package/CMakeFiles/frame2.dir/src/hello_gui.cpp.i: cmake_force
@@ -120,7 +129,7 @@ template_gui_package/CMakeFiles/frame2.dir/src/hello_gui.cpp.s: cmake_force
 
 template_gui_package/CMakeFiles/frame2.dir/src/mainwindow2.cpp.o: template_gui_package/CMakeFiles/frame2.dir/flags.make
 template_gui_package/CMakeFiles/frame2.dir/src/mainwindow2.cpp.o: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object template_gui_package/CMakeFiles/frame2.dir/src/mainwindow2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object template_gui_package/CMakeFiles/frame2.dir/src/mainwindow2.cpp.o"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/frame2.dir/src/mainwindow2.cpp.o -c /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow2.cpp
 
 template_gui_package/CMakeFiles/frame2.dir/src/mainwindow2.cpp.i: cmake_force
@@ -131,9 +140,35 @@ template_gui_package/CMakeFiles/frame2.dir/src/mainwindow2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frame2.dir/src/mainwindow2.cpp.s"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow2.cpp -o CMakeFiles/frame2.dir/src/mainwindow2.cpp.s
 
+template_gui_package/CMakeFiles/frame2.dir/src/mainwindow3.cpp.o: template_gui_package/CMakeFiles/frame2.dir/flags.make
+template_gui_package/CMakeFiles/frame2.dir/src/mainwindow3.cpp.o: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object template_gui_package/CMakeFiles/frame2.dir/src/mainwindow3.cpp.o"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/frame2.dir/src/mainwindow3.cpp.o -c /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow3.cpp
+
+template_gui_package/CMakeFiles/frame2.dir/src/mainwindow3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frame2.dir/src/mainwindow3.cpp.i"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow3.cpp > CMakeFiles/frame2.dir/src/mainwindow3.cpp.i
+
+template_gui_package/CMakeFiles/frame2.dir/src/mainwindow3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frame2.dir/src/mainwindow3.cpp.s"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow3.cpp -o CMakeFiles/frame2.dir/src/mainwindow3.cpp.s
+
+template_gui_package/CMakeFiles/frame2.dir/src/mainwindow4.cpp.o: template_gui_package/CMakeFiles/frame2.dir/flags.make
+template_gui_package/CMakeFiles/frame2.dir/src/mainwindow4.cpp.o: /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object template_gui_package/CMakeFiles/frame2.dir/src/mainwindow4.cpp.o"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/frame2.dir/src/mainwindow4.cpp.o -c /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow4.cpp
+
+template_gui_package/CMakeFiles/frame2.dir/src/mainwindow4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/frame2.dir/src/mainwindow4.cpp.i"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow4.cpp > CMakeFiles/frame2.dir/src/mainwindow4.cpp.i
+
+template_gui_package/CMakeFiles/frame2.dir/src/mainwindow4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/frame2.dir/src/mainwindow4.cpp.s"
+	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow4.cpp -o CMakeFiles/frame2.dir/src/mainwindow4.cpp.s
+
 template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/UVLADIE3JM/qrc_res.cpp.o: template_gui_package/CMakeFiles/frame2.dir/flags.make
 template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/UVLADIE3JM/qrc_res.cpp.o: template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/UVLADIE3JM/qrc_res.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/UVLADIE3JM/qrc_res.cpp.o"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/frame2.dir/frame2_autogen/UVLADIE3JM/qrc_res.cpp.o -c /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp
 
 template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/UVLADIE3JM/qrc_res.cpp.i: cmake_force
@@ -150,6 +185,8 @@ frame2_OBJECTS = \
 "CMakeFiles/frame2.dir/nodes/frame2.cpp.o" \
 "CMakeFiles/frame2.dir/src/hello_gui.cpp.o" \
 "CMakeFiles/frame2.dir/src/mainwindow2.cpp.o" \
+"CMakeFiles/frame2.dir/src/mainwindow3.cpp.o" \
+"CMakeFiles/frame2.dir/src/mainwindow4.cpp.o" \
 "CMakeFiles/frame2.dir/frame2_autogen/UVLADIE3JM/qrc_res.cpp.o"
 
 # External object files for target frame2
@@ -159,13 +196,10 @@ frame2_EXTERNAL_OBJECTS =
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: template_gui_package/CMakeFiles/frame2.dir/nodes/frame2.cpp.o
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: template_gui_package/CMakeFiles/frame2.dir/src/hello_gui.cpp.o
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: template_gui_package/CMakeFiles/frame2.dir/src/mainwindow2.cpp.o
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: template_gui_package/CMakeFiles/frame2.dir/src/mainwindow3.cpp.o
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: template_gui_package/CMakeFiles/frame2.dir/src/mainwindow4.cpp.o
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: template_gui_package/CMakeFiles/frame2.dir/frame2_autogen/UVLADIE3JM/qrc_res.cpp.o
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: template_gui_package/CMakeFiles/frame2.dir/build.make
-/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/libroscpp.so
-/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/libxmlrpcpp.so
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/libcv_bridge.so
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
@@ -215,11 +249,26 @@ frame2_EXTERNAL_OBJECTS =
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/libimage_transport.so
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/libmessage_filters.so
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/libclass_loader.so
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/libroscpp.so
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/librosconsole.so
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/librosconsole_log4cxx.so
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/librosconsole_backend_interface.so
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/libroslib.so
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/librospack.so
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/libroscpp_serialization.so
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /opt/ros/noetic/lib/librostime.so
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
@@ -247,7 +296,7 @@ frame2_EXTERNAL_OBJECTS =
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2: template_gui_package/CMakeFiles/frame2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alijohn/Desktop/temp_for_gui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable /home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/frame2"
 	cd /home/alijohn/Desktop/temp_for_gui/build/template_gui_package && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/frame2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -261,6 +310,8 @@ template_gui_package/CMakeFiles/frame2.dir/clean:
 
 template_gui_package/CMakeFiles/frame2.dir/depend: template_gui_package/ui_hello_gui.h
 template_gui_package/CMakeFiles/frame2.dir/depend: template_gui_package/ui_mainwindow2.h
+template_gui_package/CMakeFiles/frame2.dir/depend: template_gui_package/ui_mainwindow3.h
+template_gui_package/CMakeFiles/frame2.dir/depend: template_gui_package/ui_mainwindow4.h
 template_gui_package/CMakeFiles/frame2.dir/depend: template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp
 	cd /home/alijohn/Desktop/temp_for_gui/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alijohn/Desktop/temp_for_gui/src /home/alijohn/Desktop/temp_for_gui/src/template_gui_package /home/alijohn/Desktop/temp_for_gui/build /home/alijohn/Desktop/temp_for_gui/build/template_gui_package /home/alijohn/Desktop/temp_for_gui/build/template_gui_package/CMakeFiles/frame2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : template_gui_package/CMakeFiles/frame2.dir/depend

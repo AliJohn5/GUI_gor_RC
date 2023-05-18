@@ -1,12 +1,13 @@
 <RCC>
     <qresource prefix="/new/prefix1">
-        <file>bac.jpg</file>
-        <file>cameraicon.jpg</file>
-        <file>arm.jpeg</file>
-        <file>back.jpg</file>
-        <file>bac2.png</file>
-        <file>bac3.png</file>
-        <file>bac4.png</file>
-        <file>hi.png</file>
+        <file>img/arm.jpeg</file>
+        <file>img/bac.jpg</file>
+        <file>img/bac2.png</file>
+        <file>img/bac3.png</file>
+        <file>img/bac4.png</file>
+        <file>img/back.jpg</file>
+        <file>img/cameraicon.jpg</file>
+        <file>img/hi.png</file>
+        <file>img/download.png</file>
     </qresource>
 </RCC>

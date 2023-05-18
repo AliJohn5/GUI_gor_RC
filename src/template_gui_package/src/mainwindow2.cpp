@@ -20,3 +20,8 @@ void MainWindow2::on_pushButton_clicked()
     sendData();
     qDebug()<<"mainwindow2 send :";
 }
+
+void MainWindow2::closeEvent(QCloseEvent *event)
+{
+  not_hide();
+}

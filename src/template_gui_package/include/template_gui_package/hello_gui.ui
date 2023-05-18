@@ -6,341 +6,105 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1132</width>
-    <height>638</height>
+    <width>435</width>
+    <height>586</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true"/>
+   <string notr="true">QMainWindow{
+border-image: url(:/new/prefix1/img/bac3.png);
+}
+</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QGridLayout" name="gridLayout_2">
-    <item row="0" column="0">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
-       <layout class="QGridLayout" name="gridLayout">
-        <item row="0" column="0">
-         <layout class="QHBoxLayout" name="horizontalLayout">
-          <item>
-           <widget class="helloGui::CustomLabel" name="label">
-            <property name="styleSheet">
-             <string notr="true">border-color: rgb(193, 125, 17);</string>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <spacer name="horizontalSpacer">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Fixed</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>40</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item>
-           <widget class="helloGui::CustomLabel" name="frame_2_label">
-            <property name="styleSheet">
-             <string notr="true">border-color: rgb(193, 125, 17);
-</string>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <spacer name="horizontalSpacer_2">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Fixed</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>40</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item>
-           <widget class="QLabel" name="label_2">
-            <property name="styleSheet">
-             <string notr="true">border-color: rgb(193, 125, 17);</string>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-       </layout>
+       <layout class="QHBoxLayout" name="horizontalLayout"/>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_3">
-        <item>
-         <spacer name="horizontalSpacer_4">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeType">
-           <enum>QSizePolicy::Maximum</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item>
-         <widget class="QPushButton" name="pushButtonCamera">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0);
-background-color: #FFA500;
-</string>
-          </property>
-          <property name="text">
-           <string>Camera 1</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_3">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item>
-         <widget class="QPushButton" name="pushButton_4">
-          <property name="styleSheet">
-           <string notr="true">color: rgb(0, 0, 0);
-background-color: #FFA500;
-</string>
-          </property>
-          <property name="text">
-           <string>Camera 2</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_5">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeType">
-           <enum>QSizePolicy::Maximum</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-       </layout>
-      </item>
-     </layout>
-    </item>
-    <item row="1" column="0" colspan="2">
-     <widget class="Line" name="line">
-      <property name="frameShadow">
-       <enum>QFrame::Plain</enum>
-      </property>
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="1">
-     <spacer name="verticalSpacer">
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-      <property name="sizeType">
-       <enum>QSizePolicy::Fixed</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>8</width>
-        <height>18</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
-    <item row="3" column="0">
-     <layout class="QHBoxLayout" name="horizontalLayout_2">
-      <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_10">
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_9">
-          <item>
-           <layout class="QVBoxLayout" name="verticalLayout_2">
-            <item>
-             <widget class="QPushButton" name="pushButton_5">
-              <property name="styleSheet">
-               <string notr="true">color: rgb(0, 0, 0);
-background-color: #FFA500;
-</string>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QPushButton" name="pushButton_6">
-              <property name="styleSheet">
-               <string notr="true">color: rgb(0, 0, 0);
-background-color: #FFA500;
-</string>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QPushButton" name="pushButton_9">
-              <property name="styleSheet">
-               <string notr="true">color: rgb(0, 0, 0);
-background-color: #FFA500;
-</string>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QPushButton" name="pushButton_3">
-              <property name="styleSheet">
-               <string notr="true">color: rgb(0, 0, 0);
-background-color: #FFA500;
-</string>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </item>
-          <item>
-           <layout class="QVBoxLayout" name="verticalLayout_3">
-            <item>
-             <widget class="QPushButton" name="pushButton">
-              <property name="styleSheet">
-               <string notr="true">color: rgb(0, 0, 0);
-background-color: #FFA500;
-</string>
-              </property>
-              <property name="text">
-               <string>Enter</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QPushButton" name="pushButton_7">
-              <property name="styleSheet">
-               <string notr="true">color: rgb(0, 0, 0);
-background-color: #FFA500;
-</string>
-              </property>
-              <property name="text">
-               <string>window2</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QPushButton" name="pushButton_2">
-              <property name="styleSheet">
-               <string notr="true">color: rgb(0, 0, 0);
-background-color: #FFA500;
-</string>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QPushButton" name="pushButton_8">
-              <property name="styleSheet">
-               <string notr="true">color: rgb(0, 0, 0);
-background-color: #FFA500;
-</string>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </item>
-         </layout>
-        </item>
-       </layout>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
       </item>
       <item>
-       <layout class="QVBoxLayout" name="verticalLayout_4">
-        <item>
-         <widget class="QLineEdit" name="lineEdit">
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(233, 185, 110);
-border-color: rgb(233, 185, 110);</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="lineEdit_2">
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(233, 185, 110);
-border-color: rgb(233, 185, 110);</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="lineEdit_4">
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(233, 185, 110);
-border-color: rgb(233, 185, 110);</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="lineEdit_3">
-          <property name="styleSheet">
-           <string notr="true">background-color: rgb(233, 185, 110);
-border-color: rgb(233, 185, 110);</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+border-width: 2px;
+border-style: outset;
+border-color:#8E3B35;
+    background-color: #808080; /* Cornflower blue */
+    color: #000000; /* White */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;}
+
+QPushButton:hover {
+    background-color:#8E3B35;
+    border-style: inset;
+}</string>
+        </property>
+        <property name="text">
+         <string>window 2</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+border-width: 2px;
+border-style: outset;
+    background-color: #808080; /* Cornflower blue */
+    color: #000000; /* White */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;}
+
+QPushButton:hover {
+    background-color:#8E3B35;
+    border-style: inset;
+}</string>
+        </property>
+        <property name="text">
+         <string>window 3</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_9">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+border-width: 2px;
+border-style: outset;
+    background-color: #808080; /* Cornflower blue */
+    color: #000000; /* White */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;}
+
+QPushButton:hover {
+    background-color:#8E3B35;
+    border-style: inset;
+}</string>
+        </property>
+        <property name="text">
+         <string>window 4</string>
+        </property>
+       </widget>
       </item>
      </layout>
     </item>
@@ -351,7 +115,7 @@ border-color: rgb(233, 185, 110);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1132</width>
+     <width>435</width>
      <height>22</height>
     </rect>
    </property>
@@ -360,8 +124,8 @@ border-color: rgb(233, 185, 110);</string>
      <string>option</string>
     </property>
     <addaction name="separator"/>
-    <addaction name="actionopen_camera"/>
-    <addaction name="actioncamera_2_ON_OFF"/>
+    <addaction name="actionCamera_1"/>
+    <addaction name="actionCamera_2"/>
    </widget>
    <addaction name="menuoption"/>
   </widget>
@@ -376,49 +140,30 @@ border-color: rgb(233, 185, 110);</string>
    <attribute name="toolBarBreak">
     <bool>false</bool>
    </attribute>
-   <addaction name="actionopen_camera"/>
    <addaction name="separator"/>
-   <addaction name="actioncamera_2_ON_OFF"/>
+   <addaction name="separator"/>
+   <addaction name="actionCamera_1"/>
+   <addaction name="separator"/>
+   <addaction name="actionCamera_2"/>
    <addaction name="separator"/>
   </widget>
-  <action name="actionopen_camera">
+  <action name="actionCamera_1">
    <property name="checkable">
     <bool>true</bool>
    </property>
-   <property name="checked">
-    <bool>false</bool>
-   </property>
-   <property name="enabled">
-    <bool>true</bool>
-   </property>
-   <property name="icon">
-    <iconset>
-     <normaloff>../../src/cameraicon.jpg</normaloff>../../src/cameraicon.jpg</iconset>
-   </property>
    <property name="text">
-    <string>camera1 (ON/OFF)</string>
+    <string>Camera_1</string>
    </property>
   </action>
-  <action name="actioncamera_2_ON_OFF">
+  <action name="actionCamera_2">
    <property name="checkable">
     <bool>true</bool>
    </property>
-   <property name="icon">
-    <iconset>
-     <normaloff>../../src/cameraicon.jpg</normaloff>../../src/cameraicon.jpg</iconset>
-   </property>
    <property name="text">
-    <string>camera 2 (ON/OFF)</string>
+    <string>Camera_2</string>
    </property>
   </action>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>helloGui::CustomLabel</class>
-   <extends>QLabel</extends>
-   <header location="global">hello_gui.h</header>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections/>
 </ui>

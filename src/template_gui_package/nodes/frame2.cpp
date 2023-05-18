@@ -21,11 +21,13 @@ using namespace std;
 int main(int argc, char **argv)
 {
 
+  int indix = 3;
+  if (argc==2) indix = atoi(argv[1]);
   ros::init(argc, argv, "frame2");
   ros::NodeHandle n("~");
   ros::Publisher pub = n.advertise<sensor_msgs::Image>("frame2", 1);
 
-  VideoCapture cap(0);
+  VideoCapture cap(indix);
   if (!cap.isOpened())
   {
       ROS_ERROR("Failed to open camera");

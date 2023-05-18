@@ -1,6 +1,8 @@
 #ifndef MAINWINDOW2_H
 #define MAINWINDOW2_H
 
+#ifndef all_lib
+#define all_lib
 #include <QMainWindow>
 #include <QtGui>
 #include <ros/ros.h>
@@ -18,6 +20,8 @@
 #include <vector>
 #include<math.h>
 #include<QLabel>
+#include "namespaceali.h"
+#endif
 
 namespace Ui {
 class MainWindow2;
@@ -31,13 +35,20 @@ public:
   explicit MainWindow2(QWidget *parent = nullptr);
   ~MainWindow2();
 
+  void closeEvent(QCloseEvent *event);
 signals:
     void dataToSend(int data);
+    void dataopen(bool f);
 
 public slots:
     void sendData() {
         int data = 42;
         emit dataToSend(data);
+    }
+    void not_hide()
+    {
+      bool f =true;
+      emit dataopen(f);
     }
 
 private slots:

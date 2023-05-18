@@ -5,7 +5,7 @@
 		<Option title="template_gui_package"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\noetic\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\em\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\cv_bridge\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\cv_bridge\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\rosconsole\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\rosconsole\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\cpp_common\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\cpp_common\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\rostime\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\rostime\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\sensor_msgs\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\sensor_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\geometry_msgs\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\message_runtime\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\message_runtime\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\roscpp_serialization\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\roscpp_traits\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\std_msgs\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\std_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\roscpp\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\roscpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\rosgraph_msgs\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\usr\src\googletest\;CMake Files\..\..\..\..\..\usr\src\googletest\googlemock\;CMake Files\..\..\..\..\..\usr\src\googletest\googletest\;CMake Files\..\..\..\..\..\usr\src\googletest\googletest\cmake\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\;CMake Files\..\build\;CMake Files\..\build\catkin\;CMake Files\..\build\catkin\catkin_generated\;CMake Files\..\build\catkin\catkin_generated\version\;CMake Files\..\build\catkin_generated\;CMake Files\..\build\catkin_generated\installspace\;CMake Files\..\build\template_gui_package\;CMake Files\..\build\template_gui_package\catkin_generated\;CMake Files\template_gui_package\;CMake Files\template_gui_package\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\..\opt\ros\noetic\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\test\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\catkin\cmake\em\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\cv_bridge\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\cv_bridge\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\rosconsole\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\rosconsole\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\cpp_common\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\cpp_common\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\rostime\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\rostime\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\sensor_msgs\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\sensor_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\geometry_msgs\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\message_runtime\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\message_runtime\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\roscpp_serialization\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\roscpp_traits\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\std_msgs\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\std_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\image_transport\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\image_transport\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\message_filters\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\message_filters\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\roscpp\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\roscpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\rosgraph_msgs\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\pluginlib\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\pluginlib\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\class_loader\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\class_loader\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\roslib\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\roslib\cmake\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\rospack\;CMake Files\..\..\..\..\..\opt\ros\noetic\share\rospack\cmake\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\usr\src\googletest\;CMake Files\..\..\..\..\..\usr\src\googletest\googlemock\;CMake Files\..\..\..\..\..\usr\src\googletest\googletest\;CMake Files\..\..\..\..\..\usr\src\googletest\googletest\cmake\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\libfreenect\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\;CMake Files\..\build\;CMake Files\..\build\catkin\;CMake Files\..\build\catkin\catkin_generated\;CMake Files\..\build\catkin\catkin_generated\version\;CMake Files\..\build\catkin_generated\;CMake Files\..\build\catkin_generated\installspace\;CMake Files\..\build\template_gui_package\;CMake Files\..\build\template_gui_package\catkin_generated\;CMake Files\template_gui_package\;CMake Files\template_gui_package\src\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
@@ -45,9 +45,9 @@
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/listener_autogen/include"/>
 					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/usr/include/opencv4"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include"/>
-					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_calib3d"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_core"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_dnn"/>
@@ -97,9 +97,9 @@
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/listener_autogen/include"/>
 					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/usr/include/opencv4"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include"/>
-					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_calib3d"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_core"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_dnn"/>
@@ -309,9 +309,9 @@
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/frame2_autogen/include"/>
 					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/usr/include/opencv4"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include"/>
-					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_calib3d"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_core"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_dnn"/>
@@ -361,9 +361,9 @@
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/frame2_autogen/include"/>
 					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/usr/include/opencv4"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include"/>
-					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_calib3d"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_core"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_dnn"/>
@@ -415,170 +415,6 @@
 					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="roscpp_generate_messages_eus">
-				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rosgraph_msgs_generate_messages_eus">
-				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rosgraph_msgs_generate_messages_nodejs">
-				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rosgraph_msgs_generate_messages_lisp">
-				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_gui_node">
-				<Option output="/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
-					<Add option="-DROS_PACKAGE_NAME=&quot;template_gui_package&quot;"/>
-					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
-					<Add option="-DQT_WIDGETS_LIB"/>
-					<Add option="-DQT_GUI_LIB"/>
-					<Add option="-DQT_CORE_LIB"/>
-					<Add option="-DQT_PRINTSUPPORT_LIB"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/hello_gui_node_autogen/include"/>
-					<Add directory="/opt/ros/noetic/include"/>
-					<Add directory="/usr/include/opencv4"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include"/>
-					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_calib3d"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_core"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_dnn"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_features2d"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_flann"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_gapi"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_highgui"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_imgcodecs"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_imgproc"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_ml"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_objdetect"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_photo"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_stitching"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_video"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_videoio"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package"/>
-					<Add directory="/usr/local/include/opencv4"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
-					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 hello_gui_node"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="hello_gui_node/fast">
-				<Option output="/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
-					<Add option="-DROS_PACKAGE_NAME=&quot;template_gui_package&quot;"/>
-					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
-					<Add option="-DQT_WIDGETS_LIB"/>
-					<Add option="-DQT_GUI_LIB"/>
-					<Add option="-DQT_CORE_LIB"/>
-					<Add option="-DQT_PRINTSUPPORT_LIB"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/hello_gui_node_autogen/include"/>
-					<Add directory="/opt/ros/noetic/include"/>
-					<Add directory="/usr/include/opencv4"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include"/>
-					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_calib3d"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_core"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_dnn"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_features2d"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_flann"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_gapi"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_highgui"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_imgcodecs"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_imgproc"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_ml"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_objdetect"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_photo"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_stitching"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_video"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_videoio"/>
-					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package"/>
-					<Add directory="/usr/local/include/opencv4"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
-					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 hello_gui_node/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="geometry_msgs_generate_messages_eus">
-				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="std_msgs_generate_messages_nodejs">
-				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="talker">
 				<Option output="/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/talker" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package"/>
@@ -597,9 +433,9 @@
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/talker_autogen/include"/>
 					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/usr/include/opencv4"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include"/>
-					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_calib3d"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_core"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_dnn"/>
@@ -649,9 +485,9 @@
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/talker_autogen/include"/>
 					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/usr/include/opencv4"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include"/>
-					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_calib3d"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_core"/>
 					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_dnn"/>
@@ -683,6 +519,274 @@
 					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="geometry_msgs_generate_messages_eus">
+				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_eus">
+				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_eus">
+				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Kenict">
+				<Option output="/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/Kenict" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;template_gui_package&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Kenict_autogen/include"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_calib3d"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_core"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_dnn"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_features2d"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_flann"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_gapi"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_highgui"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_imgcodecs"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_imgproc"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_ml"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_objdetect"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_photo"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_stitching"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_video"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_videoio"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 Kenict"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Kenict/fast">
+				<Option output="/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/Kenict" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;template_gui_package&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Kenict_autogen/include"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_calib3d"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_core"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_dnn"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_features2d"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_flann"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_gapi"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_highgui"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_imgcodecs"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_imgproc"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_ml"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_objdetect"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_photo"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_stitching"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_video"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_videoio"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 Kenict/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_lisp">
+				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_gui_node">
+				<Option output="/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;template_gui_package&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/hello_gui_node_autogen/include"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_calib3d"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_core"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_dnn"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_features2d"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_flann"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_gapi"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_highgui"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_imgcodecs"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_imgproc"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_ml"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_objdetect"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_photo"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_stitching"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_video"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_videoio"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 hello_gui_node"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_gui_node/fast">
+				<Option output="/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package/hello_gui_node" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/devel/lib/template_gui_package"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DROS_BUILD_SHARED_LIBS=1"/>
+					<Add option="-DROS_PACKAGE_NAME=&quot;template_gui_package&quot;"/>
+					<Add option="-DROSCONSOLE_BACKEND_LOG4CXX"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_PRINTSUPPORT_LIB"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/hello_gui_node_autogen/include"/>
+					<Add directory="/opt/ros/noetic/include"/>
+					<Add directory="/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_calib3d"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_core"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_dnn"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_features2d"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_flann"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_gapi"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_highgui"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_imgcodecs"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_imgproc"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_ml"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_objdetect"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_photo"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_stitching"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_video"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/opencv_videoio"/>
+					<Add directory="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 hello_gui_node/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="listener_autogen">
 				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
 				<Option type="4"/>
@@ -703,16 +807,6 @@
 					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="hello_gui_node_autogen">
-				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 hello_gui_node_autogen"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="talker_autogen">
 				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
 				<Option type="4"/>
@@ -723,7 +817,36 @@
 					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Kenict_autogen">
+				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 Kenict_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_gui_node_autogen">
+				<Option working_dir="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 hello_gui_node_autogen"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Kenict_autogen/UVLADIE3JM/qrc_res.cpp">
+			<Option target="Kenict"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Kenict_autogen/UVLADIE3JM/qrc_res.cpp.rule">
+			<Option target="Kenict"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/Kenict_autogen/mocs_compilation.cpp">
+			<Option target="Kenict"/>
+		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/build/template_gui_package/frame2_autogen/UVLADIE3JM/qrc_res.cpp">
 			<Option target="frame2"/>
 		</Unit>
@@ -763,32 +886,75 @@
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/hello_gui.h">
 			<Option target="listener"/>
 			<Option target="frame2"/>
-			<Option target="hello_gui_node"/>
 			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
 		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/hello_gui.ui">
 			<Option target="listener"/>
 			<Option target="frame2"/>
-			<Option target="hello_gui_node"/>
 			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
 		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow2.h">
 			<Option target="listener"/>
 			<Option target="frame2"/>
-			<Option target="hello_gui_node"/>
 			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
 		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow2.ui">
 			<Option target="listener"/>
 			<Option target="frame2"/>
-			<Option target="hello_gui_node"/>
 			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow3.h">
+			<Option target="listener"/>
+			<Option target="frame2"/>
+			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow3.ui">
+			<Option target="listener"/>
+			<Option target="frame2"/>
+			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow4.h">
+			<Option target="listener"/>
+			<Option target="frame2"/>
+			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/mainwindow4.ui">
+			<Option target="listener"/>
+			<Option target="frame2"/>
+			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/namespaceali.h">
+			<Option target="listener"/>
+			<Option target="frame2"/>
+			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
 		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/include/template_gui_package/rrtstar.h">
 			<Option target="listener"/>
 			<Option target="frame2"/>
-			<Option target="hello_gui_node"/>
 			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/nodes/Kenict.cpp">
+			<Option target="Kenict"/>
 		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/nodes/frame2.cpp">
 			<Option target="frame2"/>
@@ -805,20 +971,37 @@
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/hello_gui.cpp">
 			<Option target="listener"/>
 			<Option target="frame2"/>
-			<Option target="hello_gui_node"/>
 			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
 		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow2.cpp">
 			<Option target="listener"/>
 			<Option target="frame2"/>
-			<Option target="hello_gui_node"/>
 			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow3.cpp">
+			<Option target="listener"/>
+			<Option target="frame2"/>
+			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/mainwindow4.cpp">
+			<Option target="listener"/>
+			<Option target="frame2"/>
+			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
 		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/template_gui_package/src/res.qrc">
 			<Option target="listener"/>
 			<Option target="frame2"/>
-			<Option target="hello_gui_node"/>
 			<Option target="talker"/>
+			<Option target="Kenict"/>
+			<Option target="hello_gui_node"/>
 		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
@@ -1072,6 +1255,18 @@
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/std_msgs/cmake/std_msgsConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\std_msgs\cmake\"/>
 		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/image_transport/cmake/image_transportConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\image_transport\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/image_transport/cmake/image_transportConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\image_transport\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/message_filters/cmake/message_filtersConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\message_filters\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/message_filters/cmake/message_filtersConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\message_filters\cmake\"/>
+		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/roscpp/cmake/roscpp-msg-extras.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\roscpp\cmake\"/>
 		</Unit>
@@ -1099,6 +1294,36 @@
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\xmlrpcpp\cmake\"/>
 		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/pluginlib/cmake/pluginlibConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\pluginlib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/pluginlib/cmake/pluginlibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\pluginlib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/class_loader/cmake/class_loader-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\class_loader\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/class_loader/cmake/class_loaderConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\class_loader\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/class_loader/cmake/class_loaderConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\class_loader\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/roslib/cmake/roslib-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\roslib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/roslib/cmake/roslibConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\roslib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/roslib/cmake/roslibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\roslib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/rospack/cmake/rospackConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\rospack\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../opt/ros/noetic/share/rospack/cmake/rospackConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\ros\noetic\share\rospack\cmake\"/>
+		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../usr/src/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\src\googletest\"/>
 		</Unit>
@@ -1122,6 +1347,9 @@
 		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../usr/local/share/libfreenect/libfreenectConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\libfreenect\"/>
 		</Unit>
 		<Unit filename="/home/alijohn/Desktop/temp_for_gui/src/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
